@@ -77,12 +77,12 @@ class Client(models.Model):
 		"""It is overrided method and used for return **slug** **Symptoms_with_condition**"""
 		return str(self.user_account)
 class Category(models.Model):
-	cat_name=models.CharField(max_length=200,null=True,blank=True)
-	cat_description=models.CharField(max_length=800,null=True,blank=True)
+	category_name=models.CharField(max_length=200,null=True,blank=True)
+	category_description=models.CharField(max_length=800,null=True,blank=True)
 
 	def __unicode__(self):
 		"""It is overrided method and used for return **slug** **Symptoms_with_condition**"""
-		return str(self.cat_name)
+		return str(self.category_name)
 
 def upload_to1(instance, filename):
 	print "name:",instance.client.user_account.name

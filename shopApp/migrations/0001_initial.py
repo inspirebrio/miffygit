@@ -62,8 +62,8 @@ class Migration(migrations.Migration):
             name='Category',
             fields=[
                 ('id', models.AutoField(verbose_name='ID', serialize=False, auto_created=True, primary_key=True)),
-                ('cat_name', models.CharField(max_length=200, null=True, blank=True)),
-                ('cat_description', models.CharField(max_length=800, null=True, blank=True)),
+                ('category_name', models.CharField(max_length=200, null=True, blank=True)),
+                ('category_description', models.CharField(max_length=800, null=True, blank=True)),
             ],
             options={
             },
