@@ -11,9 +11,9 @@ class BannerAddPage_Serializer(serializers.ModelSerializer):
         model = BannerAddPage
         fields = ('ad_name','ad_description','image_url','add_url','banner_position')
 
-    def get_image_url(self, obj):
-    	print "here"
+    def get_image_url(self,obj):
+    	
         return 'http:/'+obj.ad_banner1.path
-    def get_add_url(self, obj):
-    	print "there"
+    def get_add_url(self,obj):
+    	
         return obj.ad_url1

@@ -57,6 +57,7 @@ ROOT_URLCONF = 'ShopAtBest.urls'
 
 WSGI_APPLICATION = 'ShopAtBest.wsgi.application'
 
+CROS_ORIGIN_ALLOW_ALL=True
 
 # Database
 # https://docs.djangoproject.com/en/1.7/ref/settings/#databases
