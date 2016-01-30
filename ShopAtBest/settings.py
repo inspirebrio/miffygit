@@ -21,7 +21,7 @@ SECRET_KEY = '7nslvrl-2)%1ed6ok9d30%0x(91o-4110ycb%4nnk5r$=zqm43'
 
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
-
+STATIC_PATH = os.path.join(BASE_DIR, 'static')
 TEMPLATE_DEBUG = True
 
 ALLOWED_HOSTS = []
@@ -87,6 +87,8 @@ USE_TZ = True
 # https://docs.djangoproject.com/en/1.7/howto/static-files/
 MEDIA_ROOT = os.path.join(BASE_DIR, 'media')
 MEDIA_URL='/media/'
+STATIC_ROOT=STATIC_PATH
 STATIC_URL = '/static/'
+
 
 AUTH_USER_MODEL = 'shopApp.User_account'
