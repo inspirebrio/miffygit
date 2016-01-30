@@ -24,7 +24,7 @@ DEBUG = True
 STATIC_PATH = os.path.join(BASE_DIR, 'static')
 TEMPLATE_DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['*']
 
 
 

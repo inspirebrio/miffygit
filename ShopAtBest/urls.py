@@ -1,15 +1,19 @@
 from django.conf.urls import patterns, include, url
 from django.contrib import admin
-import shopApp
+from shopApp import views
 from django.conf import settings
 from rest_framework.urlpatterns import format_suffix_patterns
+from shopApp.forms import MyAuthenticationForm
 
+admin.autodiscover()
+admin.site.login_form = MyAuthenticationForm
 urlpatterns = patterns('',
     # Examples:
     # url(r'^$', 'ShopAtBest.views.home', name='home'),
     # url(r'^blog/', include('blog.urls')),
     url(r'^grappelli/', include('grappelli.urls')),
     url(r'^admin/', include(admin.site.urls)),
+    # url(r'^admin/login/', views.login_view),
     url(r'^add/',include('shopApp.urls')),
     )
 

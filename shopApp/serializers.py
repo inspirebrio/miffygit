@@ -4,7 +4,7 @@ from .models import *
 
 class BannerAddPage_Serializer(serializers.ModelSerializer):
    # body_part = Body_partSerializer(many=True)
-    # image_url = serializers.ImageField()
+    # image_url = serializers.SerializerMethodField()
     add_url = serializers.SerializerMethodField()
 
     class Meta:

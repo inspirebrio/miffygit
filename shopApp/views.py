@@ -15,8 +15,10 @@ class Ad_view(ListAPIView):
     pagination_class = ResultsSetPagination
     serializer_class=BannerAddPage_Serializer
     def get_queryset(self):
-        queryset = BannerAddPage.objects.all().order_by('banner_position')
+        queryset = BannerAddPage.objects.all().order_by('-banner_position')
         return queryset
+def login_view(self,request):
+	return HttpResponse("ok")
 
 
 
