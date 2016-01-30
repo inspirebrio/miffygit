@@ -1,0 +1,995 @@
+[uWSGI] getting INI configuration from run_project.ini
+*** Starting uWSGI 2.0.12 (64bit) on [Sat Jan 30 11:13:23 2016] ***
+compiled with version: 4.8.4 on 29 January 2016 09:44:23
+os: Linux-3.13.0-74-generic #118-Ubuntu SMP Thu Dec 17 22:52:10 UTC 2015
+nodename: ip-172-31-18-10
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 1
+current working directory: /home/ubuntu/webapps/miffy/miffygit
+detected binary path: /home/ubuntu/webapps/miffy/miffyenv/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+chdir() to /home/ubuntu/webapps/miffy/miffygit/
+your processes number limit is 7862
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+probably another instance of uWSGI is running on the same address (127.0.0.1:3031).
+bind(): Address already in use [core/socket.c line 769]
+[uWSGI] getting INI configuration from run_project.ini
+*** Starting uWSGI 2.0.12 (64bit) on [Sat Jan 30 11:13:24 2016] ***
+compiled with version: 4.8.4 on 29 January 2016 09:44:23
+os: Linux-3.13.0-74-generic #118-Ubuntu SMP Thu Dec 17 22:52:10 UTC 2015
+nodename: ip-172-31-18-10
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 1
+current working directory: /home/ubuntu/webapps/miffy/miffygit
+detected binary path: /home/ubuntu/webapps/miffy/miffyenv/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+chdir() to /home/ubuntu/webapps/miffy/miffygit/
+your processes number limit is 7862
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+probably another instance of uWSGI is running on the same address (127.0.0.1:3031).
+bind(): Address already in use [core/socket.c line 769]
+[uWSGI] getting INI configuration from run_project.ini
+*** Starting uWSGI 2.0.12 (64bit) on [Sat Jan 30 11:13:26 2016] ***
+compiled with version: 4.8.4 on 29 January 2016 09:44:23
+os: Linux-3.13.0-74-generic #118-Ubuntu SMP Thu Dec 17 22:52:10 UTC 2015
+nodename: ip-172-31-18-10
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 1
+current working directory: /home/ubuntu/webapps/miffy/miffygit
+detected binary path: /home/ubuntu/webapps/miffy/miffyenv/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+chdir() to /home/ubuntu/webapps/miffy/miffygit/
+your processes number limit is 7862
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+probably another instance of uWSGI is running on the same address (127.0.0.1:3031).
+bind(): Address already in use [core/socket.c line 769]
+[uWSGI] getting INI configuration from run_project.ini
+*** Starting uWSGI 2.0.12 (64bit) on [Sat Jan 30 11:13:29 2016] ***
+compiled with version: 4.8.4 on 29 January 2016 09:44:23
+os: Linux-3.13.0-74-generic #118-Ubuntu SMP Thu Dec 17 22:52:10 UTC 2015
+nodename: ip-172-31-18-10
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 1
+current working directory: /home/ubuntu/webapps/miffy/miffygit
+detected binary path: /home/ubuntu/webapps/miffy/miffyenv/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+chdir() to /home/ubuntu/webapps/miffy/miffygit/
+your processes number limit is 7862
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+probably another instance of uWSGI is running on the same address (127.0.0.1:3031).
+bind(): Address already in use [core/socket.c line 769]
+[uWSGI] getting INI configuration from run_project.ini
+*** Starting uWSGI 2.0.12 (64bit) on [Sat Jan 30 11:13:44 2016] ***
+compiled with version: 4.8.4 on 29 January 2016 09:44:23
+os: Linux-3.13.0-74-generic #118-Ubuntu SMP Thu Dec 17 22:52:10 UTC 2015
+nodename: ip-172-31-18-10
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 1
+current working directory: /home/ubuntu/webapps/miffy/miffygit
+detected binary path: /home/ubuntu/webapps/miffy/miffyenv/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+chdir() to /home/ubuntu/webapps/miffy/miffygit/
+your processes number limit is 7862
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to TCP address 127.0.0.1:3031 fd 3
+Python version: 2.7.6 (default, Jun 22 2015, 18:01:27)  [GCC 4.8.2]
+Python main interpreter initialized at 0x17d1d70
+python threads support enabled
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 218280 bytes (213 KB) for 2 cores
+*** Operational MODE: preforking ***
+WSGI app 0 (mountpoint='') ready in 0 seconds on interpreter 0x17d1d70 pid: 27436 (default app)
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 27436)
+spawned uWSGI worker 1 (pid: 27441, cores: 1)
+spawned uWSGI worker 2 (pid: 27442, cores: 1)
+*** Stats server enabled on 127.0.0.1:9191 fd: 11 ***
+/home/ubuntu/webapps/miffy/miffyenv/local/lib/python2.7/site-packages/django/template/base.py:290: RemovedInDjango18Warning: 'The `firstof` template tag is changing to escape its arguments; the non-autoescaping version is deprecated. Load it from the `future` tag library to start using the new behavior.
+  compiled_result = compile_func(self, token)
+
+/home/ubuntu/webapps/miffy/miffyenv/local/lib/python2.7/site-packages/django/template/base.py:290: RemovedInDjango18Warning: 'The `cycle` template tag is changing to escape its arguments; the non-autoescaping version is deprecated. Load it from the `future` tag library to start using the new behavior.
+  compiled_result = compile_func(self, token)
+
+[pid: 27442|app: 0|req: 1/1] 182.77.0.65 () {46 vars in 930 bytes} [Sat Jan 30 11:13:50 2016] GET /admin/shopApp/banneraddpage/ => generated 14745 bytes in 90 msecs (HTTP/1.1 200) 7 headers in 336 bytes (1 switches on core 0)
+[pid: 27441|app: 0|req: 1/2] 182.77.0.65 () {42 vars in 773 bytes} [Sat Jan 30 11:13:51 2016] GET /admin/jsi18n/ => generated 2372 bytes in 17 msecs (HTTP/1.1 200) 3 headers in 93 bytes (1 switches on core 0)
+[pid: 27442|app: 0|req: 2/3] 182.77.0.65 () {44 vars in 865 bytes} [Sat Jan 30 11:13:53 2016] GET /admin/ => generated 13657 bytes in 33 msecs (HTTP/1.1 200) 6 headers in 214 bytes (1 switches on core 0)
+/home/ubuntu/webapps/miffy/miffyenv/local/lib/python2.7/site-packages/django/template/base.py:290: RemovedInDjango18Warning: 'The `firstof` template tag is changing to escape its arguments; the non-autoescaping version is deprecated. Load it from the `future` tag library to start using the new behavior.
+  compiled_result = compile_func(self, token)
+
+/home/ubuntu/webapps/miffy/miffyenv/local/lib/python2.7/site-packages/django/template/base.py:290: RemovedInDjango18Warning: 'The `cycle` template tag is changing to escape its arguments; the non-autoescaping version is deprecated. Load it from the `future` tag library to start using the new behavior.
+  compiled_result = compile_func(self, token)
+
+[pid: 27441|app: 0|req: 2/4] 182.77.0.65 () {46 vars in 942 bytes} [Sat Jan 30 11:13:54 2016] GET /admin/shopApp/banneraddpage/ => generated 14745 bytes in 80 msecs (HTTP/1.1 200) 7 headers in 336 bytes (1 switches on core 0)
+[pid: 27442|app: 0|req: 3/5] 182.77.0.65 () {42 vars in 773 bytes} [Sat Jan 30 11:13:55 2016] GET /admin/jsi18n/ => generated 2372 bytes in 6 msecs (HTTP/1.1 200) 3 headers in 93 bytes (1 switches on core 0)
+[pid: 27441|app: 0|req: 3/6] 182.77.0.65 () {46 vars in 920 bytes} [Sat Jan 30 11:13:57 2016] GET /admin/ => generated 13657 bytes in 32 msecs (HTTP/1.1 200) 6 headers in 214 bytes (1 switches on core 0)
+[pid: 27442|app: 0|req: 4/7] 182.77.0.65 () {46 vars in 942 bytes} [Sat Jan 30 11:13:59 2016] GET /admin/shopApp/banneraddpage/ => generated 14745 bytes in 43 msecs (HTTP/1.1 200) 7 headers in 336 bytes (1 switches on core 0)
+[pid: 27441|app: 0|req: 4/8] 182.77.0.65 () {42 vars in 773 bytes} [Sat Jan 30 11:13:59 2016] GET /admin/jsi18n/ => generated 2372 bytes in 5 msecs (HTTP/1.1 200) 3 headers in 93 bytes (1 switches on core 0)
+[pid: 27442|app: 0|req: 5/9] 182.77.0.65 () {44 vars in 881 bytes} [Sat Jan 30 11:14:01 2016] GET /admin/shopApp/ => generated 8340 bytes in 25 msecs (HTTP/1.1 200) 6 headers in 214 bytes (1 switches on core 0)
+[pid: 27441|app: 0|req: 5/10] 182.77.0.65 () {46 vars in 906 bytes} [Sat Jan 30 11:14:03 2016] GET /admin/ => generated 13657 bytes in 28 msecs (HTTP/1.1 200) 6 headers in 214 bytes (1 switches on core 0)
+[pid: 27441|app: 0|req: 6/11] 182.77.0.65 () {40 vars in 708 bytes} [Sat Jan 30 11:15:41 2016] GET /add/page/?limit=5&offset=0 => generated 1768 bytes in 7 msecs (HTTP/1.1 200) 5 headers in 161 bytes (1 switches on core 0)
+[pid: 27442|app: 0|req: 6/12] 182.77.0.65 () {40 vars in 708 bytes} [Sat Jan 30 11:15:57 2016] GET /add/page/?limit=5&offset=5 => generated 1446 bytes in 7 msecs (HTTP/1.1 200) 5 headers in 161 bytes (1 switches on core 0)
+[pid: 27441|app: 0|req: 7/13] 182.77.0.65 () {40 vars in 710 bytes} [Sat Jan 30 11:15:59 2016] GET /add/page/?limit=5&offset=10 => generated 1151 bytes in 5 msecs (HTTP/1.1 200) 5 headers in 161 bytes (1 switches on core 0)
+[pid: 27441|app: 0|req: 8/14] 182.77.0.65 () {46 vars in 796 bytes} [Sat Jan 30 11:17:08 2016] GET /add/page/?limit=5&offset=0 => generated 1768 bytes in 6 msecs (HTTP/1.1 200) 5 headers in 161 bytes (1 switches on core 0)
+[pid: 27442|app: 0|req: 7/15] 182.77.0.65 () {46 vars in 796 bytes} [Sat Jan 30 11:17:18 2016] GET /add/page/?limit=5&offset=0 => generated 1768 bytes in 6 msecs (HTTP/1.1 200) 5 headers in 161 bytes (1 switches on core 0)
+[pid: 27441|app: 0|req: 9/16] 182.77.0.65 () {46 vars in 796 bytes} [Sat Jan 30 11:17:19 2016] GET /add/page/?limit=5&offset=5 => generated 1446 bytes in 6 msecs (HTTP/1.1 200) 5 headers in 161 bytes (1 switches on core 0)
+[pid: 27442|app: 0|req: 8/17] 182.77.0.65 () {40 vars in 708 bytes} [Sat Jan 30 11:17:21 2016] GET /add/page/?limit=5&offset=0 => generated 1768 bytes in 6 msecs (HTTP/1.1 200) 5 headers in 161 bytes (1 switches on core 0)
+[pid: 27441|app: 0|req: 10/18] 182.77.0.65 () {40 vars in 708 bytes} [Sat Jan 30 11:17:25 2016] GET /add/page/?limit=5&offset=5 => generated 1446 bytes in 6 msecs (HTTP/1.1 200) 5 headers in 161 bytes (1 switches on core 0)
+[pid: 27442|app: 0|req: 9/19] 182.77.0.65 () {40 vars in 710 bytes} [Sat Jan 30 11:17:27 2016] GET /add/page/?limit=5&offset=10 => generated 1151 bytes in 6 msecs (HTTP/1.1 200) 5 headers in 161 bytes (1 switches on core 0)
+[pid: 27441|app: 0|req: 11/20] 182.77.0.65 () {40 vars in 708 bytes} [Sat Jan 30 11:17:40 2016] GET /add/page/?limit=5&offset=0 => generated 1768 bytes in 6 msecs (HTTP/1.1 200) 5 headers in 161 bytes (1 switches on core 0)
+...brutally killing workers...
+worker 1 buried after 1 seconds
+worker 2 buried after 1 seconds
+binary reloading uWSGI...
+chdir() to /home/ubuntu/webapps/miffy/miffygit
+closing all non-uwsgi socket fds > 2 (max_fd = 1024)...
+found fd 3 mapped to socket 0 (127.0.0.1:3031)
+running /home/ubuntu/webapps/miffy/miffyenv/bin/uwsgi
+[uWSGI] getting INI configuration from run_project.ini
+*** Starting uWSGI 2.0.12 (64bit) on [Sat Jan 30 11:18:35 2016] ***
+compiled with version: 4.8.4 on 29 January 2016 09:44:23
+os: Linux-3.13.0-74-generic #118-Ubuntu SMP Thu Dec 17 22:52:10 UTC 2015
+nodename: ip-172-31-18-10
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 1
+current working directory: /home/ubuntu/webapps/miffy/miffygit
+detected binary path: /home/ubuntu/webapps/miffy/miffyenv/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+chdir() to /home/ubuntu/webapps/miffy/miffygit/
+your processes number limit is 7862
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 inherited INET address 127.0.0.1:3031 fd 3
+Python version: 2.7.6 (default, Jun 22 2015, 18:01:27)  [GCC 4.8.2]
+Python main interpreter initialized at 0x1e40940
+python threads support enabled
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 218280 bytes (213 KB) for 2 cores
+*** Operational MODE: preforking ***
+u here
+WSGI app 0 (mountpoint='') ready in 0 seconds on interpreter 0x1e40940 pid: 27436 (default app)
+*** uWSGI is running in multiple interpreter mode ***
+gracefully (RE)spawned uWSGI master process (pid: 27436)
+spawned uWSGI worker 1 (pid: 27495, cores: 1)
+spawned uWSGI worker 2 (pid: 27496, cores: 1)
+*** Stats server enabled on 127.0.0.1:9191 fd: 11 ***
+[uWSGI] getting INI configuration from run_project.ini
+*** Starting uWSGI 2.0.12 (64bit) on [Sat Jan 30 11:18:44 2016] ***
+compiled with version: 4.8.4 on 29 January 2016 09:44:23
+os: Linux-3.13.0-74-generic #118-Ubuntu SMP Thu Dec 17 22:52:10 UTC 2015
+nodename: ip-172-31-18-10
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 1
+current working directory: /home/ubuntu/webapps/miffy/miffygit
+detected binary path: /home/ubuntu/webapps/miffy/miffyenv/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+chdir() to /home/ubuntu/webapps/miffy/miffygit/
+your processes number limit is 7862
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+probably another instance of uWSGI is running on the same address (127.0.0.1:3031).
+bind(): Address already in use [core/socket.c line 769]
+[uWSGI] getting INI configuration from run_project.ini
+*** Starting uWSGI 2.0.12 (64bit) on [Sat Jan 30 11:18:45 2016] ***
+compiled with version: 4.8.4 on 29 January 2016 09:44:23
+os: Linux-3.13.0-74-generic #118-Ubuntu SMP Thu Dec 17 22:52:10 UTC 2015
+nodename: ip-172-31-18-10
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 1
+current working directory: /home/ubuntu/webapps/miffy/miffygit
+detected binary path: /home/ubuntu/webapps/miffy/miffyenv/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+chdir() to /home/ubuntu/webapps/miffy/miffygit/
+your processes number limit is 7862
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+probably another instance of uWSGI is running on the same address (127.0.0.1:3031).
+bind(): Address already in use [core/socket.c line 769]
+[uWSGI] getting INI configuration from run_project.ini
+*** Starting uWSGI 2.0.12 (64bit) on [Sat Jan 30 11:18:47 2016] ***
+compiled with version: 4.8.4 on 29 January 2016 09:44:23
+os: Linux-3.13.0-74-generic #118-Ubuntu SMP Thu Dec 17 22:52:10 UTC 2015
+nodename: ip-172-31-18-10
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 1
+current working directory: /home/ubuntu/webapps/miffy/miffygit
+detected binary path: /home/ubuntu/webapps/miffy/miffyenv/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+chdir() to /home/ubuntu/webapps/miffy/miffygit/
+your processes number limit is 7862
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+probably another instance of uWSGI is running on the same address (127.0.0.1:3031).
+bind(): Address already in use [core/socket.c line 769]
+[uWSGI] getting INI configuration from run_project.ini
+*** Starting uWSGI 2.0.12 (64bit) on [Sat Jan 30 11:18:50 2016] ***
+compiled with version: 4.8.4 on 29 January 2016 09:44:23
+os: Linux-3.13.0-74-generic #118-Ubuntu SMP Thu Dec 17 22:52:10 UTC 2015
+nodename: ip-172-31-18-10
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 1
+current working directory: /home/ubuntu/webapps/miffy/miffygit
+detected binary path: /home/ubuntu/webapps/miffy/miffyenv/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+chdir() to /home/ubuntu/webapps/miffy/miffygit/
+your processes number limit is 7862
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+probably another instance of uWSGI is running on the same address (127.0.0.1:3031).
+bind(): Address already in use [core/socket.c line 769]
+[uWSGI] getting INI configuration from run_project.ini
+*** Starting uWSGI 2.0.12 (64bit) on [Sat Jan 30 11:21:02 2016] ***
+compiled with version: 4.8.4 on 29 January 2016 09:44:23
+os: Linux-3.13.0-74-generic #118-Ubuntu SMP Thu Dec 17 22:52:10 UTC 2015
+nodename: ip-172-31-18-10
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 1
+current working directory: /home/ubuntu/webapps/miffy/miffygit
+detected binary path: /home/ubuntu/webapps/miffy/miffyenv/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+chdir() to /home/ubuntu/webapps/miffy/miffygit/
+your processes number limit is 7862
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+probably another instance of uWSGI is running on the same address (127.0.0.1:3031).
+bind(): Address already in use [core/socket.c line 769]
+[uWSGI] getting INI configuration from run_project.ini
+*** Starting uWSGI 2.0.12 (64bit) on [Sat Jan 30 11:21:03 2016] ***
+compiled with version: 4.8.4 on 29 January 2016 09:44:23
+os: Linux-3.13.0-74-generic #118-Ubuntu SMP Thu Dec 17 22:52:10 UTC 2015
+nodename: ip-172-31-18-10
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 1
+current working directory: /home/ubuntu/webapps/miffy/miffygit
+detected binary path: /home/ubuntu/webapps/miffy/miffyenv/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+chdir() to /home/ubuntu/webapps/miffy/miffygit/
+your processes number limit is 7862
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+probably another instance of uWSGI is running on the same address (127.0.0.1:3031).
+bind(): Address already in use [core/socket.c line 769]
+[uWSGI] getting INI configuration from run_project.ini
+*** Starting uWSGI 2.0.12 (64bit) on [Sat Jan 30 11:21:05 2016] ***
+compiled with version: 4.8.4 on 29 January 2016 09:44:23
+os: Linux-3.13.0-74-generic #118-Ubuntu SMP Thu Dec 17 22:52:10 UTC 2015
+nodename: ip-172-31-18-10
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 1
+current working directory: /home/ubuntu/webapps/miffy/miffygit
+detected binary path: /home/ubuntu/webapps/miffy/miffyenv/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+chdir() to /home/ubuntu/webapps/miffy/miffygit/
+your processes number limit is 7862
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+probably another instance of uWSGI is running on the same address (127.0.0.1:3031).
+bind(): Address already in use [core/socket.c line 769]
+[uWSGI] getting INI configuration from run_project.ini
+*** Starting uWSGI 2.0.12 (64bit) on [Sat Jan 30 11:21:08 2016] ***
+compiled with version: 4.8.4 on 29 January 2016 09:44:23
+os: Linux-3.13.0-74-generic #118-Ubuntu SMP Thu Dec 17 22:52:10 UTC 2015
+nodename: ip-172-31-18-10
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 1
+current working directory: /home/ubuntu/webapps/miffy/miffygit
+detected binary path: /home/ubuntu/webapps/miffy/miffyenv/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+chdir() to /home/ubuntu/webapps/miffy/miffygit/
+your processes number limit is 7862
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+probably another instance of uWSGI is running on the same address (127.0.0.1:3031).
+bind(): Address already in use [core/socket.c line 769]
+[uWSGI] getting INI configuration from run_project.ini
+*** Starting uWSGI 2.0.12 (64bit) on [Sat Jan 30 11:22:47 2016] ***
+compiled with version: 4.8.4 on 29 January 2016 09:44:23
+os: Linux-3.13.0-74-generic #118-Ubuntu SMP Thu Dec 17 22:52:10 UTC 2015
+nodename: ip-172-31-18-10
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 1
+current working directory: /home/ubuntu/webapps/miffy/miffygit
+detected binary path: /home/ubuntu/webapps/miffy/miffyenv/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+chdir() to /home/ubuntu/webapps/miffy/miffygit/
+your processes number limit is 7862
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to TCP address 127.0.0.1:3031 fd 3
+Python version: 2.7.6 (default, Jun 22 2015, 18:01:27)  [GCC 4.8.2]
+Python main interpreter initialized at 0x13fc550
+python threads support enabled
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 218280 bytes (213 KB) for 2 cores
+*** Operational MODE: preforking ***
+u here
+WSGI app 0 (mountpoint='') ready in 1 seconds on interpreter 0x13fc550 pid: 1192 (default app)
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 1192)
+spawned uWSGI worker 1 (pid: 1266, cores: 1)
+spawned uWSGI worker 2 (pid: 1267, cores: 1)
+*** Stats server enabled on 127.0.0.1:9191 fd: 11 ***
+[pid: 1267|app: 0|req: 1/1] 182.77.0.65 () {44 vars in 819 bytes} [Sat Jan 30 11:22:50 2016] GET / => generated 2350 bytes in 24 msecs (HTTP/1.1 404) 3 headers in 94 bytes (1 switches on core 0)
+[pid: 1266|app: 0|req: 1/2] 182.77.0.65 () {44 vars in 822 bytes} [Sat Jan 30 11:22:56 2016] GET /add/page/ => generated 11291 bytes in 95 msecs (HTTP/1.1 200) 4 headers in 137 bytes (1 switches on core 0)
+[pid: 1267|app: 0|req: 2/3] 182.77.0.65 () {42 vars in 798 bytes} [Sat Jan 30 11:22:56 2016] GET /admin => generated 0 bytes in 0 msecs (HTTP/1.1 301) 3 headers in 142 bytes (1 switches on core 0)
+/home/ubuntu/webapps/miffy/miffyenv/local/lib/python2.7/site-packages/django/template/base.py:290: RemovedInDjango18Warning: 'The `firstof` template tag is changing to escape its arguments; the non-autoescaping version is deprecated. Load it from the `future` tag library to start using the new behavior.
+  compiled_result = compile_func(self, token)
+
+[pid: 1267|app: 0|req: 3/4] 182.77.0.65 () {42 vars in 800 bytes} [Sat Jan 30 11:22:57 2016] GET /admin/ => generated 13657 bytes in 69 msecs (HTTP/1.1 200) 6 headers in 214 bytes (1 switches on core 0)
+[pid: 1266|app: 0|req: 2/5] 182.77.0.65 () {42 vars in 810 bytes} [Sat Jan 30 11:23:04 2016] GET /add/page/1/ => generated 11315 bytes in 27 msecs (HTTP/1.1 200) 4 headers in 137 bytes (1 switches on core 0)
+[pid: 1267|app: 0|req: 4/6] 182.77.0.65 () {44 vars in 841 bytes} [Sat Jan 30 11:23:20 2016] GET /add/page/1/ => generated 11315 bytes in 36 msecs (HTTP/1.1 200) 4 headers in 137 bytes (1 switches on core 0)
+[pid: 1266|app: 0|req: 3/7] 182.77.0.65 () {44 vars in 822 bytes} [Sat Jan 30 11:24:08 2016] GET /add/page/ => generated 11291 bytes in 27 msecs (HTTP/1.1 200) 4 headers in 137 bytes (1 switches on core 0)
+[pid: 1266|app: 0|req: 4/8] 182.77.0.65 () {46 vars in 796 bytes} [Sat Jan 30 11:25:56 2016] GET /add/page/?limit=5&offset=0 => generated 2592 bytes in 7 msecs (HTTP/1.1 200) 5 headers in 161 bytes (1 switches on core 0)
+[pid: 1267|app: 0|req: 5/9] 182.77.0.65 () {46 vars in 796 bytes} [Sat Jan 30 11:25:59 2016] GET /add/page/?limit=5&offset=5 => generated 2747 bytes in 8 msecs (HTTP/1.1 200) 5 headers in 161 bytes (1 switches on core 0)
+/home/ubuntu/webapps/miffy/miffyenv/local/lib/python2.7/site-packages/django/template/base.py:290: RemovedInDjango18Warning: 'The `firstof` template tag is changing to escape its arguments; the non-autoescaping version is deprecated. Load it from the `future` tag library to start using the new behavior.
+  compiled_result = compile_func(self, token)
+
+[pid: 1266|app: 0|req: 5/10] 182.77.0.65 () {44 vars in 840 bytes} [Sat Jan 30 11:26:01 2016] GET /admin/ => generated 13657 bytes in 65 msecs (HTTP/1.1 200) 6 headers in 214 bytes (1 switches on core 0)
+/home/ubuntu/webapps/miffy/miffyenv/local/lib/python2.7/site-packages/django/template/base.py:290: RemovedInDjango18Warning: 'The `cycle` template tag is changing to escape its arguments; the non-autoescaping version is deprecated. Load it from the `future` tag library to start using the new behavior.
+  compiled_result = compile_func(self, token)
+
+[pid: 1267|app: 0|req: 6/11] 182.77.0.65 () {44 vars in 872 bytes} [Sat Jan 30 11:26:04 2016] GET /admin/shopApp/banneraddpage/ => generated 14745 bytes in 52 msecs (HTTP/1.1 200) 7 headers in 336 bytes (1 switches on core 0)
+[pid: 1266|app: 0|req: 6/12] 182.77.0.65 () {42 vars in 758 bytes} [Sat Jan 30 11:26:05 2016] GET /admin/jsi18n/ => generated 2372 bytes in 7 msecs (HTTP/1.1 200) 3 headers in 93 bytes (1 switches on core 0)
+[pid: 1267|app: 0|req: 7/13] 182.77.0.65 () {44 vars in 900 bytes} [Sat Jan 30 11:26:07 2016] GET /admin/shopApp/banneraddpage/13/ => generated 20858 bytes in 62 msecs (HTTP/1.1 200) 7 headers in 336 bytes (1 switches on core 0)
+[pid: 1266|app: 0|req: 7/14] 182.77.0.65 () {42 vars in 761 bytes} [Sat Jan 30 11:26:07 2016] GET /admin/jsi18n/ => generated 2372 bytes in 5 msecs (HTTP/1.1 200) 3 headers in 93 bytes (1 switches on core 0)
+[pid: 1267|app: 0|req: 8/15] 182.77.0.65 () {46 vars in 798 bytes} [Sat Jan 30 11:26:17 2016] GET /add/page/?limit=5&offset=10 => generated 1714 bytes in 6 msecs (HTTP/1.1 200) 5 headers in 161 bytes (1 switches on core 0)
+[pid: 1266|app: 0|req: 8/16] 182.77.0.65 () {46 vars in 796 bytes} [Sat Jan 30 11:26:54 2016] GET /add/page/?limit=5&offset=0 => generated 2592 bytes in 7 msecs (HTTP/1.1 200) 5 headers in 161 bytes (1 switches on core 0)
+[pid: 1267|app: 0|req: 9/17] 182.77.0.65 () {46 vars in 796 bytes} [Sat Jan 30 11:27:03 2016] GET /add/page/?limit=5&offset=0 => generated 2592 bytes in 7 msecs (HTTP/1.1 200) 5 headers in 161 bytes (1 switches on core 0)
+[pid: 1266|app: 0|req: 9/18] 182.77.0.65 () {46 vars in 796 bytes} [Sat Jan 30 11:27:07 2016] GET /add/page/?limit=5&offset=0 => generated 2592 bytes in 8 msecs (HTTP/1.1 200) 5 headers in 161 bytes (1 switches on core 0)
+[pid: 1267|app: 0|req: 10/19] 182.77.0.65 () {46 vars in 796 bytes} [Sat Jan 30 11:27:12 2016] GET /add/page/?limit=5&offset=0 => generated 2592 bytes in 8 msecs (HTTP/1.1 200) 5 headers in 161 bytes (1 switches on core 0)
+[pid: 1266|app: 0|req: 10/20] 182.77.0.65 () {46 vars in 796 bytes} [Sat Jan 30 11:27:23 2016] GET /add/page/?limit=5&offset=0 => generated 2592 bytes in 7 msecs (HTTP/1.1 200) 5 headers in 161 bytes (1 switches on core 0)
+[pid: 1267|app: 0|req: 11/21] 182.77.0.65 () {46 vars in 796 bytes} [Sat Jan 30 11:27:30 2016] GET /add/page/?limit=5&offset=0 => generated 2592 bytes in 7 msecs (HTTP/1.1 200) 5 headers in 161 bytes (1 switches on core 0)
+[pid: 1266|app: 0|req: 11/22] 182.77.0.65 () {46 vars in 796 bytes} [Sat Jan 30 11:27:37 2016] GET /add/page/?limit=5&offset=0 => generated 2592 bytes in 7 msecs (HTTP/1.1 200) 5 headers in 161 bytes (1 switches on core 0)
+[pid: 1267|app: 0|req: 12/23] 182.77.0.65 () {46 vars in 796 bytes} [Sat Jan 30 11:27:44 2016] GET /add/page/?limit=5&offset=0 => generated 2592 bytes in 8 msecs (HTTP/1.1 200) 5 headers in 161 bytes (1 switches on core 0)
+[pid: 1266|app: 0|req: 12/24] 182.77.0.65 () {46 vars in 796 bytes} [Sat Jan 30 11:27:46 2016] GET /add/page/?limit=5&offset=5 => generated 2747 bytes in 8 msecs (HTTP/1.1 200) 5 headers in 161 bytes (1 switches on core 0)
+[pid: 1267|app: 0|req: 13/25] 182.77.0.65 () {46 vars in 798 bytes} [Sat Jan 30 11:27:48 2016] GET /add/page/?limit=5&offset=10 => generated 1714 bytes in 7 msecs (HTTP/1.1 200) 5 headers in 161 bytes (1 switches on core 0)
+[pid: 1266|app: 0|req: 13/26] 182.77.0.65 () {46 vars in 796 bytes} [Sat Jan 30 11:27:53 2016] GET /add/page/?limit=5&offset=0 => generated 2592 bytes in 8 msecs (HTTP/1.1 200) 5 headers in 161 bytes (1 switches on core 0)
+name: flipkart
+URL : client/flipkart/flipkart another/flipkart another2016-01-30 11:28:01.953238
+[pid: 1267|app: 0|req: 14/27] 182.77.0.65 () {52 vars in 1156 bytes} [Sat Jan 30 11:28:01 2016] POST /admin/shopApp/banneraddpage/13/ => generated 166965 bytes in 212 msecs (HTTP/1.1 500) 4 headers in 138 bytes (2 switches on core 0)
+[pid: 1266|app: 0|req: 14/28] 182.77.0.65 () {46 vars in 796 bytes} [Sat Jan 30 11:28:16 2016] GET /add/page/?limit=5&offset=0 => generated 2592 bytes in 7 msecs (HTTP/1.1 200) 5 headers in 161 bytes (1 switches on core 0)
+[pid: 1267|app: 0|req: 15/29] 182.77.0.65 () {46 vars in 796 bytes} [Sat Jan 30 11:29:03 2016] GET /add/page/?limit=5&offset=0 => generated 2592 bytes in 8 msecs (HTTP/1.1 200) 5 headers in 161 bytes (1 switches on core 0)
+[pid: 1266|app: 0|req: 15/30] 182.77.0.65 () {46 vars in 796 bytes} [Sat Jan 30 11:29:10 2016] GET /add/page/?limit=5&offset=0 => generated 2592 bytes in 8 msecs (HTTP/1.1 200) 5 headers in 161 bytes (1 switches on core 0)
+[pid: 1267|app: 0|req: 16/31] 182.77.0.65 () {46 vars in 796 bytes} [Sat Jan 30 11:29:12 2016] GET /add/page/?limit=5&offset=5 => generated 2747 bytes in 7 msecs (HTTP/1.1 200) 5 headers in 161 bytes (1 switches on core 0)
+[pid: 1266|app: 0|req: 16/32] 182.77.0.65 () {46 vars in 796 bytes} [Sat Jan 30 11:29:17 2016] GET /add/page/?limit=5&offset=0 => generated 2592 bytes in 7 msecs (HTTP/1.1 200) 5 headers in 161 bytes (1 switches on core 0)
+[pid: 1267|app: 0|req: 17/33] 182.77.0.65 () {46 vars in 796 bytes} [Sat Jan 30 11:29:20 2016] GET /add/page/?limit=5&offset=5 => generated 2747 bytes in 7 msecs (HTTP/1.1 200) 5 headers in 161 bytes (1 switches on core 0)
+[pid: 1266|app: 0|req: 17/34] 182.77.0.65 () {46 vars in 798 bytes} [Sat Jan 30 11:29:30 2016] GET /add/page/?limit=5&offset=10 => generated 1714 bytes in 6 msecs (HTTP/1.1 200) 5 headers in 161 bytes (1 switches on core 0)
+[pid: 1267|app: 0|req: 18/35] 182.77.0.65 () {42 vars in 832 bytes} [Sat Jan 30 11:29:35 2016] GET /add/page/?limit=5&offset=10 => generated 9266 bytes in 24 msecs (HTTP/1.1 200) 4 headers in 137 bytes (1 switches on core 0)
+[pid: 1266|app: 0|req: 18/36] 182.77.0.65 () {42 vars in 830 bytes} [Sat Jan 30 11:29:38 2016] GET /add/page/?limit=5&offset=0 => generated 11380 bytes in 26 msecs (HTTP/1.1 200) 4 headers in 137 bytes (1 switches on core 0)
+[pid: 1267|app: 0|req: 19/37] 182.77.0.65 () {52 vars in 1156 bytes} [Sat Jan 30 11:30:09 2016] POST /admin/shopApp/banneraddpage/13/ => generated 21328 bytes in 63 msecs (HTTP/1.1 200) 8 headers in 368 bytes (2 switches on core 0)
+[pid: 1266|app: 0|req: 19/38] 182.77.0.65 () {42 vars in 761 bytes} [Sat Jan 30 11:30:10 2016] GET /admin/jsi18n/ => generated 2372 bytes in 5 msecs (HTTP/1.1 200) 3 headers in 93 bytes (1 switches on core 0)
+[pid: 1267|app: 0|req: 20/39] 182.77.0.65 () {46 vars in 796 bytes} [Sat Jan 30 11:30:17 2016] GET /add/page/?limit=5&offset=0 => generated 2592 bytes in 7 msecs (HTTP/1.1 200) 5 headers in 161 bytes (1 switches on core 0)
+[pid: 1266|app: 0|req: 20/40] 182.77.0.65 () {46 vars in 796 bytes} [Sat Jan 30 11:30:19 2016] GET /add/page/?limit=5&offset=0 => generated 2592 bytes in 7 msecs (HTTP/1.1 200) 5 headers in 161 bytes (1 switches on core 0)
+[pid: 1267|app: 0|req: 21/41] 182.77.0.65 () {46 vars in 796 bytes} [Sat Jan 30 11:30:22 2016] GET /add/page/?limit=5&offset=0 => generated 2592 bytes in 7 msecs (HTTP/1.1 200) 5 headers in 161 bytes (1 switches on core 0)
+[pid: 1267|app: 0|req: 22/42] 182.77.0.65 () {46 vars in 796 bytes} [Sat Jan 30 11:30:23 2016] GET /add/page/?limit=5&offset=0 => generated 2592 bytes in 14 msecs (HTTP/1.1 200) 5 headers in 161 bytes (1 switches on core 0)
+[pid: 1266|app: 0|req: 21/43] 182.77.0.65 () {52 vars in 1152 bytes} [Sat Jan 30 11:30:23 2016] POST /admin/shopApp/banneraddpage/13/ => generated 197444 bytes in 198 msecs (HTTP/1.1 500) 4 headers in 138 bytes (1 switches on core 0)
+[pid: 1267|app: 0|req: 23/44] 182.77.0.65 () {46 vars in 796 bytes} [Sat Jan 30 11:30:27 2016] GET /add/page/?limit=5&offset=0 => generated 2592 bytes in 7 msecs (HTTP/1.1 200) 5 headers in 161 bytes (1 switches on core 0)
+[pid: 1266|app: 0|req: 22/45] 182.77.0.65 () {46 vars in 796 bytes} [Sat Jan 30 11:30:29 2016] GET /add/page/?limit=5&offset=0 => generated 2592 bytes in 7 msecs (HTTP/1.1 200) 5 headers in 161 bytes (1 switches on core 0)
+[pid: 1267|app: 0|req: 24/46] 182.77.0.65 () {46 vars in 952 bytes} [Sat Jan 30 11:30:33 2016] GET /admin/shopApp/banneraddpage/ => generated 14745 bytes in 43 msecs (HTTP/1.1 200) 7 headers in 336 bytes (1 switches on core 0)
+[pid: 1266|app: 0|req: 23/47] 182.77.0.65 () {42 vars in 758 bytes} [Sat Jan 30 11:30:33 2016] GET /admin/jsi18n/ => generated 2372 bytes in 5 msecs (HTTP/1.1 200) 3 headers in 93 bytes (1 switches on core 0)
+[pid: 1267|app: 0|req: 25/48] 182.77.0.65 () {46 vars in 796 bytes} [Sat Jan 30 11:30:36 2016] GET /add/page/?limit=5&offset=0 => generated 2592 bytes in 7 msecs (HTTP/1.1 200) 5 headers in 161 bytes (1 switches on core 0)
+[pid: 1266|app: 0|req: 24/49] 182.77.0.65 () {46 vars in 796 bytes} [Sat Jan 30 11:30:40 2016] GET /add/page/?limit=5&offset=0 => generated 2592 bytes in 7 msecs (HTTP/1.1 200) 5 headers in 161 bytes (1 switches on core 0)
+[pid: 1267|app: 0|req: 26/50] 182.77.0.65 () {46 vars in 796 bytes} [Sat Jan 30 11:30:41 2016] GET /add/page/?limit=5&offset=0 => generated 2592 bytes in 7 msecs (HTTP/1.1 200) 5 headers in 161 bytes (1 switches on core 0)
+[pid: 1266|app: 0|req: 25/51] 182.77.0.65 () {46 vars in 796 bytes} [Sat Jan 30 11:30:44 2016] GET /add/page/?limit=5&offset=0 => generated 2592 bytes in 8 msecs (HTTP/1.1 200) 5 headers in 161 bytes (1 switches on core 0)
+[pid: 1267|app: 0|req: 27/52] 182.77.0.65 () {46 vars in 796 bytes} [Sat Jan 30 11:30:46 2016] GET /add/page/?limit=5&offset=0 => generated 2592 bytes in 8 msecs (HTTP/1.1 200) 5 headers in 161 bytes (1 switches on core 0)
+[pid: 1266|app: 0|req: 26/53] 182.77.0.65 () {46 vars in 796 bytes} [Sat Jan 30 11:30:47 2016] GET /add/page/?limit=5&offset=0 => generated 2592 bytes in 8 msecs (HTTP/1.1 200) 5 headers in 161 bytes (1 switches on core 0)
+[pid: 1267|app: 0|req: 28/54] 182.77.0.65 () {52 vars in 1071 bytes} [Sat Jan 30 11:30:47 2016] POST /admin/shopApp/banneraddpage/ => generated 7659 bytes in 24 msecs (HTTP/1.1 200) 8 headers in 368 bytes (1 switches on core 0)
+[pid: 1266|app: 0|req: 27/55] 182.77.0.65 () {46 vars in 796 bytes} [Sat Jan 30 11:30:48 2016] GET /add/page/?limit=5&offset=0 => generated 2592 bytes in 7 msecs (HTTP/1.1 200) 5 headers in 161 bytes (1 switches on core 0)
+[pid: 1267|app: 0|req: 29/56] 182.77.0.65 () {52 vars in 1071 bytes} [Sat Jan 30 11:30:49 2016] POST /admin/shopApp/banneraddpage/ => generated 187967 bytes in 152 msecs (HTTP/1.1 500) 4 headers in 138 bytes (1 switches on core 0)
+[pid: 1266|app: 0|req: 28/57] 182.77.0.65 () {46 vars in 796 bytes} [Sat Jan 30 11:30:49 2016] GET /add/page/?limit=5&offset=0 => generated 2592 bytes in 7 msecs (HTTP/1.1 200) 5 headers in 161 bytes (1 switches on core 0)
+[pid: 1267|app: 0|req: 30/58] 182.77.0.65 () {46 vars in 796 bytes} [Sat Jan 30 11:30:59 2016] GET /add/page/?limit=5&offset=0 => generated 2592 bytes in 7 msecs (HTTP/1.1 200) 5 headers in 161 bytes (1 switches on core 0)
+/home/ubuntu/webapps/miffy/miffyenv/local/lib/python2.7/site-packages/django/template/base.py:290: RemovedInDjango18Warning: 'The `cycle` template tag is changing to escape its arguments; the non-autoescaping version is deprecated. Load it from the `future` tag library to start using the new behavior.
+  compiled_result = compile_func(self, token)
+
+[pid: 1266|app: 0|req: 29/59] 182.77.0.65 () {44 vars in 894 bytes} [Sat Jan 30 11:31:00 2016] GET /admin/shopApp/banneraddpage/ => generated 14745 bytes in 46 msecs (HTTP/1.1 200) 7 headers in 336 bytes (1 switches on core 0)
+[pid: 1267|app: 0|req: 31/60] 182.77.0.65 () {42 vars in 758 bytes} [Sat Jan 30 11:31:00 2016] GET /admin/jsi18n/ => generated 2372 bytes in 6 msecs (HTTP/1.1 200) 3 headers in 93 bytes (1 switches on core 0)
+[pid: 1266|app: 0|req: 30/61] 182.77.0.65 () {40 vars in 708 bytes} [Sat Jan 30 11:31:03 2016] GET /add/page/?limit=5&offset=0 => generated 2592 bytes in 8 msecs (HTTP/1.1 200) 5 headers in 161 bytes (1 switches on core 0)
+[pid: 1267|app: 0|req: 32/62] 182.77.0.65 () {40 vars in 708 bytes} [Sat Jan 30 11:31:05 2016] GET /add/page/?limit=5&offset=5 => generated 2747 bytes in 8 msecs (HTTP/1.1 200) 5 headers in 161 bytes (1 switches on core 0)
+[pid: 1266|app: 0|req: 31/63] 182.77.0.65 () {40 vars in 710 bytes} [Sat Jan 30 11:31:06 2016] GET /add/page/?limit=5&offset=10 => generated 1714 bytes in 6 msecs (HTTP/1.1 200) 5 headers in 161 bytes (1 switches on core 0)
+[pid: 1267|app: 0|req: 33/64] 182.77.0.65 () {40 vars in 708 bytes} [Sat Jan 30 11:31:14 2016] GET /add/page/?limit=5&offset=0 => generated 2592 bytes in 8 msecs (HTTP/1.1 200) 5 headers in 161 bytes (1 switches on core 0)
+[pid: 1266|app: 0|req: 32/65] 182.77.0.65 () {46 vars in 921 bytes} [Sat Jan 30 11:31:14 2016] GET /admin/shopApp/ => generated 8340 bytes in 25 msecs (HTTP/1.1 200) 6 headers in 214 bytes (1 switches on core 0)
+[pid: 1267|app: 0|req: 34/66] 182.77.0.65 () {40 vars in 708 bytes} [Sat Jan 30 11:31:17 2016] GET /add/page/?limit=5&offset=0 => generated 2592 bytes in 7 msecs (HTTP/1.1 200) 5 headers in 161 bytes (1 switches on core 0)
+[pid: 1266|app: 0|req: 33/67] 182.77.0.65 () {44 vars in 850 bytes} [Sat Jan 30 11:31:18 2016] GET /admin/logout/ => generated 142097 bytes in 117 msecs (HTTP/1.1 500) 3 headers in 106 bytes (1 switches on core 0)
+[pid: 1267|app: 0|req: 35/68] 182.77.0.65 () {40 vars in 708 bytes} [Sat Jan 30 11:31:21 2016] GET /add/page/?limit=5&offset=0 => generated 2592 bytes in 7 msecs (HTTP/1.1 200) 5 headers in 161 bytes (1 switches on core 0)
+[pid: 1266|app: 0|req: 34/69] 182.77.0.65 () {40 vars in 708 bytes} [Sat Jan 30 11:31:25 2016] GET /add/page/?limit=5&offset=0 => generated 2592 bytes in 7 msecs (HTTP/1.1 200) 5 headers in 161 bytes (1 switches on core 0)
+[pid: 1267|app: 0|req: 36/70] 182.77.0.65 () {40 vars in 708 bytes} [Sat Jan 30 11:31:29 2016] GET /add/page/?limit=5&offset=0 => generated 2592 bytes in 7 msecs (HTTP/1.1 200) 5 headers in 161 bytes (1 switches on core 0)
+[pid: 1266|app: 0|req: 35/71] 182.77.0.65 () {46 vars in 796 bytes} [Sat Jan 30 11:31:40 2016] GET /add/page/?limit=5&offset=5 => generated 2747 bytes in 7 msecs (HTTP/1.1 200) 5 headers in 161 bytes (1 switches on core 0)
+[pid: 1267|app: 0|req: 37/72] 182.77.0.65 () {46 vars in 798 bytes} [Sat Jan 30 11:31:41 2016] GET /add/page/?limit=5&offset=10 => generated 1714 bytes in 7 msecs (HTTP/1.1 200) 5 headers in 161 bytes (1 switches on core 0)
+[pid: 1266|app: 0|req: 36/73] 182.77.0.65 () {46 vars in 796 bytes} [Sat Jan 30 11:31:49 2016] GET /add/page/?limit=5&offset=0 => generated 2592 bytes in 8 msecs (HTTP/1.1 200) 5 headers in 161 bytes (1 switches on core 0)
+[pid: 1267|app: 0|req: 38/74] 182.77.0.65 () {46 vars in 796 bytes} [Sat Jan 30 11:31:50 2016] GET /add/page/?limit=5&offset=5 => generated 2747 bytes in 8 msecs (HTTP/1.1 200) 5 headers in 161 bytes (1 switches on core 0)
+[pid: 1266|app: 0|req: 37/75] 182.77.0.65 () {46 vars in 798 bytes} [Sat Jan 30 11:31:51 2016] GET /add/page/?limit=5&offset=10 => generated 1714 bytes in 6 msecs (HTTP/1.1 200) 5 headers in 161 bytes (1 switches on core 0)
+[pid: 1267|app: 0|req: 39/76] 182.77.0.65 () {42 vars in 791 bytes} [Sat Jan 30 11:31:56 2016] GET /add/page/ => generated 11291 bytes in 27 msecs (HTTP/1.1 200) 4 headers in 137 bytes (1 switches on core 0)
+[pid: 1266|app: 0|req: 38/77] 182.77.0.65 () {44 vars in 840 bytes} [Sat Jan 30 11:32:12 2016] GET /admin/ => generated 13657 bytes in 29 msecs (HTTP/1.1 200) 6 headers in 214 bytes (1 switches on core 0)
+[pid: 1267|app: 0|req: 40/78] 182.77.0.65 () {46 vars in 927 bytes} [Sat Jan 30 11:32:15 2016] GET /admin/shopApp/banneraddpage/ => generated 14745 bytes in 42 msecs (HTTP/1.1 200) 7 headers in 336 bytes (1 switches on core 0)
+[pid: 1266|app: 0|req: 39/79] 182.77.0.65 () {42 vars in 758 bytes} [Sat Jan 30 11:32:15 2016] GET /admin/jsi18n/ => generated 2372 bytes in 5 msecs (HTTP/1.1 200) 3 headers in 93 bytes (1 switches on core 0)
+[pid: 1267|app: 0|req: 41/80] 182.77.0.65 () {44 vars in 898 bytes} [Sat Jan 30 11:32:22 2016] GET /admin/shopApp/banneraddpage/3/ => generated 20833 bytes in 56 msecs (HTTP/1.1 200) 7 headers in 336 bytes (1 switches on core 0)
+[pid: 1266|app: 0|req: 40/81] 182.77.0.65 () {42 vars in 760 bytes} [Sat Jan 30 11:32:23 2016] GET /admin/jsi18n/ => generated 2372 bytes in 5 msecs (HTTP/1.1 200) 3 headers in 93 bytes (1 switches on core 0)
+name: None
+URL : client/None/simple/simple2016-01-30 11:32:35.009992
+[pid: 1267|app: 0|req: 42/82] 182.77.0.65 () {52 vars in 1151 bytes} [Sat Jan 30 11:32:34 2016] POST /admin/shopApp/banneraddpage/3/ => generated 169150 bytes in 149 msecs (HTTP/1.1 500) 4 headers in 138 bytes (1 switches on core 0)
+[pid: 1266|app: 0|req: 41/83] 182.77.0.65 () {44 vars in 840 bytes} [Sat Jan 30 11:33:08 2016] GET /admin/ => generated 13657 bytes in 29 msecs (HTTP/1.1 200) 6 headers in 214 bytes (1 switches on core 0)
+[pid: 1267|app: 0|req: 43/84] 182.77.0.65 () {44 vars in 870 bytes} [Sat Jan 30 11:33:11 2016] GET /admin/shopApp/user_account/ => generated 11804 bytes in 37 msecs (HTTP/1.1 200) 7 headers in 336 bytes (1 switches on core 0)
+[pid: 1266|app: 0|req: 42/85] 182.77.0.65 () {42 vars in 757 bytes} [Sat Jan 30 11:33:11 2016] GET /admin/jsi18n/ => generated 2372 bytes in 5 msecs (HTTP/1.1 200) 3 headers in 93 bytes (1 switches on core 0)
+[pid: 1267|app: 0|req: 44/86] 182.77.0.65 () {52 vars in 1068 bytes} [Sat Jan 30 11:33:21 2016] POST /admin/shopApp/user_account/ => generated 10165 bytes in 33 msecs (HTTP/1.1 200) 8 headers in 368 bytes (1 switches on core 0)
+[pid: 1266|app: 0|req: 43/87] 182.77.0.65 () {52 vars in 1068 bytes} [Sat Jan 30 11:33:25 2016] POST /admin/shopApp/user_account/ => generated 190464 bytes in 160 msecs (HTTP/1.1 500) 4 headers in 138 bytes (1 switches on core 0)
+[pid: 1266|app: 0|req: 44/88] 182.77.0.65 () {46 vars in 796 bytes} [Sat Jan 30 11:34:48 2016] GET /add/page/?limit=5&offset=0 => generated 2592 bytes in 8 msecs (HTTP/1.1 200) 5 headers in 161 bytes (1 switches on core 0)
+[pid: 1267|app: 0|req: 45/89] 182.77.0.65 () {46 vars in 796 bytes} [Sat Jan 30 11:34:57 2016] GET /add/page/?limit=5&offset=0 => generated 2592 bytes in 8 msecs (HTTP/1.1 200) 5 headers in 161 bytes (1 switches on core 0)
+[pid: 1266|app: 0|req: 45/90] 182.77.0.65 () {46 vars in 796 bytes} [Sat Jan 30 11:35:09 2016] GET /add/page/?limit=5&offset=0 => generated 2592 bytes in 7 msecs (HTTP/1.1 200) 5 headers in 161 bytes (1 switches on core 0)
+[pid: 1267|app: 0|req: 46/91] 182.77.0.65 () {44 vars in 891 bytes} [Sat Jan 30 11:35:27 2016] GET /admin/shopApp/user_account/ => generated 11804 bytes in 36 msecs (HTTP/1.1 200) 7 headers in 336 bytes (1 switches on core 0)
+[pid: 1266|app: 0|req: 46/92] 182.77.0.65 () {42 vars in 757 bytes} [Sat Jan 30 11:35:27 2016] GET /admin/jsi18n/ => generated 2372 bytes in 5 msecs (HTTP/1.1 200) 3 headers in 93 bytes (1 switches on core 0)
+[pid: 1267|app: 0|req: 47/93] 182.77.0.65 () {44 vars in 895 bytes} [Sat Jan 30 11:35:30 2016] GET /admin/shopApp/user_account/1/ => generated 20566 bytes in 79 msecs (HTTP/1.1 200) 7 headers in 336 bytes (1 switches on core 0)
+[pid: 1266|app: 0|req: 47/94] 182.77.0.65 () {42 vars in 759 bytes} [Sat Jan 30 11:35:30 2016] GET /admin/jsi18n/ => generated 2372 bytes in 5 msecs (HTTP/1.1 200) 3 headers in 93 bytes (1 switches on core 0)
+[pid: 1267|app: 0|req: 48/95] 182.77.0.65 () {46 vars in 920 bytes} [Sat Jan 30 11:35:36 2016] GET /admin/shopApp/ => generated 8340 bytes in 26 msecs (HTTP/1.1 200) 6 headers in 214 bytes (1 switches on core 0)
+[pid: 1266|app: 0|req: 48/96] 182.77.0.65 () {46 vars in 935 bytes} [Sat Jan 30 11:35:38 2016] GET /admin/shopApp/banneraddpage/ => generated 14745 bytes in 43 msecs (HTTP/1.1 200) 7 headers in 336 bytes (1 switches on core 0)
+[pid: 1267|app: 0|req: 49/97] 182.77.0.65 () {42 vars in 758 bytes} [Sat Jan 30 11:35:38 2016] GET /admin/jsi18n/ => generated 2372 bytes in 5 msecs (HTTP/1.1 200) 3 headers in 93 bytes (1 switches on core 0)
+[pid: 1266|app: 0|req: 49/98] 182.77.0.65 () {44 vars in 898 bytes} [Sat Jan 30 11:35:41 2016] GET /admin/shopApp/banneraddpage/7/ => generated 20680 bytes in 58 msecs (HTTP/1.1 200) 7 headers in 336 bytes (1 switches on core 0)
+[pid: 1267|app: 0|req: 50/99] 182.77.0.65 () {42 vars in 760 bytes} [Sat Jan 30 11:35:41 2016] GET /admin/jsi18n/ => generated 2372 bytes in 5 msecs (HTTP/1.1 200) 3 headers in 93 bytes (1 switches on core 0)
+name: None
+URL : client/None/django/django2016-01-30 11:35:47.780165
+[pid: 1266|app: 0|req: 50/100] 182.77.0.65 () {52 vars in 1151 bytes} [Sat Jan 30 11:35:47 2016] POST /admin/shopApp/banneraddpage/7/ => generated 167161 bytes in 158 msecs (HTTP/1.1 500) 4 headers in 138 bytes (1 switches on core 0)
+[pid: 1267|app: 0|req: 51/101] 182.77.0.65 () {46 vars in 796 bytes} [Sat Jan 30 11:35:51 2016] GET /add/page/?limit=5&offset=0 => generated 2592 bytes in 7 msecs (HTTP/1.1 200) 5 headers in 161 bytes (1 switches on core 0)
+[pid: 1266|app: 0|req: 51/102] 182.77.0.65 () {46 vars in 796 bytes} [Sat Jan 30 11:35:56 2016] GET /add/page/?limit=5&offset=0 => generated 2592 bytes in 8 msecs (HTTP/1.1 200) 5 headers in 161 bytes (1 switches on core 0)
+[pid: 1267|app: 0|req: 52/103] 182.77.0.65 () {46 vars in 796 bytes} [Sat Jan 30 11:35:57 2016] GET /add/page/?limit=5&offset=0 => generated 2592 bytes in 8 msecs (HTTP/1.1 200) 5 headers in 161 bytes (1 switches on core 0)
+[pid: 1266|app: 0|req: 52/104] 182.77.0.65 () {46 vars in 951 bytes} [Sat Jan 30 11:36:18 2016] GET /admin/shopApp/banneraddpage/ => generated 14745 bytes in 44 msecs (HTTP/1.1 200) 7 headers in 336 bytes (1 switches on core 0)
+[pid: 1267|app: 0|req: 53/105] 182.77.0.65 () {42 vars in 758 bytes} [Sat Jan 30 11:36:18 2016] GET /admin/jsi18n/ => generated 2372 bytes in 5 msecs (HTTP/1.1 200) 3 headers in 93 bytes (1 switches on core 0)
+[pid: 1266|app: 0|req: 53/106] 182.77.0.65 () {44 vars in 902 bytes} [Sat Jan 30 11:36:20 2016] GET /admin/shopApp/banneraddpage/add/ => generated 18853 bytes in 54 msecs (HTTP/1.1 200) 7 headers in 336 bytes (1 switches on core 0)
+[pid: 1267|app: 0|req: 54/107] 182.77.0.65 () {42 vars in 762 bytes} [Sat Jan 30 11:36:20 2016] GET /admin/jsi18n/ => generated 2372 bytes in 5 msecs (HTTP/1.1 200) 3 headers in 93 bytes (1 switches on core 0)
+name: None
+URL : client/None/flipkart/flipkart2016-01-30 11:36:57.510476
+[pid: 1266|app: 0|req: 54/108] 182.77.0.65 () {52 vars in 1159 bytes} [Sat Jan 30 11:36:57 2016] POST /admin/shopApp/banneraddpage/add/ => generated 194556 bytes in 165 msecs (HTTP/1.1 500) 4 headers in 138 bytes (2 switches on core 0)
+[pid: 1266|app: 0|req: 55/109] 182.77.0.65 () {46 vars in 796 bytes} [Sat Jan 30 11:37:56 2016] GET /add/page/?limit=5&offset=0 => generated 2592 bytes in 7 msecs (HTTP/1.1 200) 5 headers in 161 bytes (1 switches on core 0)
+[pid: 1267|app: 0|req: 55/110] 182.77.0.65 () {46 vars in 796 bytes} [Sat Jan 30 11:38:35 2016] GET /add/page/?limit=5&offset=0 => generated 2592 bytes in 8 msecs (HTTP/1.1 200) 5 headers in 161 bytes (1 switches on core 0)
+[pid: 1266|app: 0|req: 56/111] 182.77.0.65 () {46 vars in 796 bytes} [Sat Jan 30 11:39:39 2016] GET /add/page/?limit=5&offset=0 => generated 2592 bytes in 7 msecs (HTTP/1.1 200) 5 headers in 161 bytes (1 switches on core 0)
+[pid: 1267|app: 0|req: 56/112] 182.77.0.65 () {40 vars in 708 bytes} [Sat Jan 30 11:39:43 2016] GET /add/page/?limit=5&offset=0 => generated 2592 bytes in 7 msecs (HTTP/1.1 200) 5 headers in 161 bytes (1 switches on core 0)
+[pid: 1266|app: 0|req: 57/113] 182.77.0.65 () {46 vars in 796 bytes} [Sat Jan 30 11:39:55 2016] GET /add/page/?limit=5&offset=0 => generated 2592 bytes in 7 msecs (HTTP/1.1 200) 5 headers in 161 bytes (1 switches on core 0)
+[pid: 1267|app: 0|req: 57/114] 182.77.0.65 () {40 vars in 708 bytes} [Sat Jan 30 11:39:57 2016] GET /add/page/?limit=5&offset=0 => generated 2592 bytes in 8 msecs (HTTP/1.1 200) 5 headers in 161 bytes (1 switches on core 0)
+[pid: 1266|app: 0|req: 58/115] 182.77.0.65 () {46 vars in 796 bytes} [Sat Jan 30 11:40:04 2016] GET /add/page/?limit=5&offset=0 => generated 2592 bytes in 7 msecs (HTTP/1.1 200) 5 headers in 161 bytes (1 switches on core 0)
+[pid: 1267|app: 0|req: 58/116] 182.77.0.65 () {40 vars in 708 bytes} [Sat Jan 30 11:40:06 2016] GET /add/page/?limit=5&offset=0 => generated 2592 bytes in 8 msecs (HTTP/1.1 200) 5 headers in 161 bytes (1 switches on core 0)
+[pid: 1266|app: 0|req: 59/117] 182.77.0.65 () {46 vars in 796 bytes} [Sat Jan 30 11:40:18 2016] GET /add/page/?limit=5&offset=0 => generated 2592 bytes in 8 msecs (HTTP/1.1 200) 5 headers in 161 bytes (1 switches on core 0)
+[pid: 1267|app: 0|req: 59/118] 182.77.0.65 () {46 vars in 796 bytes} [Sat Jan 30 11:40:20 2016] GET /add/page/?limit=5&offset=5 => generated 2747 bytes in 7 msecs (HTTP/1.1 200) 5 headers in 161 bytes (1 switches on core 0)
+[pid: 1266|app: 0|req: 60/119] 182.77.0.65 () {46 vars in 798 bytes} [Sat Jan 30 11:40:21 2016] GET /add/page/?limit=5&offset=10 => generated 1714 bytes in 6 msecs (HTTP/1.1 200) 5 headers in 161 bytes (1 switches on core 0)
+[pid: 1267|app: 0|req: 60/120] 182.77.0.65 () {46 vars in 796 bytes} [Sat Jan 30 11:40:26 2016] GET /add/page/?limit=5&offset=0 => generated 2592 bytes in 7 msecs (HTTP/1.1 200) 5 headers in 161 bytes (1 switches on core 0)
+[pid: 1266|app: 0|req: 61/121] 182.77.0.65 () {46 vars in 796 bytes} [Sat Jan 30 11:40:27 2016] GET /add/page/?limit=5&offset=5 => generated 2747 bytes in 8 msecs (HTTP/1.1 200) 5 headers in 161 bytes (1 switches on core 0)
+[pid: 1267|app: 0|req: 61/122] 182.77.0.65 () {46 vars in 798 bytes} [Sat Jan 30 11:40:27 2016] GET /add/page/?limit=5&offset=10 => generated 1714 bytes in 6 msecs (HTTP/1.1 200) 5 headers in 161 bytes (1 switches on core 0)
+[pid: 1266|app: 0|req: 62/123] 182.77.0.65 () {46 vars in 796 bytes} [Sat Jan 30 11:42:36 2016] GET /add/page/?limit=5&offset=0 => generated 2592 bytes in 7 msecs (HTTP/1.1 200) 5 headers in 161 bytes (1 switches on core 0)
+[pid: 1267|app: 0|req: 62/124] 182.77.0.65 () {46 vars in 796 bytes} [Sat Jan 30 11:42:44 2016] GET /add/page/?limit=5&offset=0 => generated 2592 bytes in 8 msecs (HTTP/1.1 200) 5 headers in 161 bytes (1 switches on core 0)
+[pid: 1266|app: 0|req: 63/125] 182.77.0.65 () {46 vars in 796 bytes} [Sat Jan 30 11:42:57 2016] GET /add/page/?limit=5&offset=0 => generated 2592 bytes in 8 msecs (HTTP/1.1 200) 5 headers in 161 bytes (1 switches on core 0)
+name: None
+URL : client/None/flipkart/flipkart2016-01-30 11:43:02.718967
+[pid: 1267|app: 0|req: 63/126] 182.77.0.65 () {52 vars in 1159 bytes} [Sat Jan 30 11:43:02 2016] POST /admin/shopApp/banneraddpage/add/ => generated 193737 bytes in 164 msecs (HTTP/1.1 500) 4 headers in 138 bytes (1 switches on core 0)
+[pid: 1266|app: 0|req: 64/127] 182.77.0.65 () {46 vars in 796 bytes} [Sat Jan 30 11:43:19 2016] GET /add/page/?limit=5&offset=0 => generated 2592 bytes in 7 msecs (HTTP/1.1 200) 5 headers in 161 bytes (1 switches on core 0)
+[pid: 1267|app: 0|req: 64/128] 182.77.0.65 () {46 vars in 796 bytes} [Sat Jan 30 11:43:27 2016] GET /add/page/?limit=5&offset=0 => generated 2592 bytes in 7 msecs (HTTP/1.1 200) 5 headers in 161 bytes (1 switches on core 0)
+[pid: 1266|app: 0|req: 65/129] 182.77.0.65 () {40 vars in 708 bytes} [Sat Jan 30 11:43:29 2016] GET /add/page/?limit=5&offset=0 => generated 2592 bytes in 7 msecs (HTTP/1.1 200) 5 headers in 161 bytes (1 switches on core 0)
+...brutally killing workers...
+worker 1 buried after 1 seconds
+worker 2 buried after 1 seconds
+binary reloading uWSGI...
+chdir() to /home/ubuntu/webapps/miffy/miffygit
+closing all non-uwsgi socket fds > 2 (max_fd = 1024)...
+found fd 3 mapped to socket 0 (127.0.0.1:3031)
+running /home/ubuntu/webapps/miffy/miffyenv/bin/uwsgi
+[uWSGI] getting INI configuration from run_project.ini
+*** Starting uWSGI 2.0.12 (64bit) on [Sat Jan 30 11:43:35 2016] ***
+compiled with version: 4.8.4 on 29 January 2016 09:44:23
+os: Linux-3.13.0-74-generic #118-Ubuntu SMP Thu Dec 17 22:52:10 UTC 2015
+nodename: ip-172-31-18-10
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 1
+current working directory: /home/ubuntu/webapps/miffy/miffygit
+detected binary path: /home/ubuntu/webapps/miffy/miffyenv/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+chdir() to /home/ubuntu/webapps/miffy/miffygit/
+your processes number limit is 7862
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 inherited INET address 127.0.0.1:3031 fd 3
+Python version: 2.7.6 (default, Jun 22 2015, 18:01:27)  [GCC 4.8.2]
+Python main interpreter initialized at 0x865180
+python threads support enabled
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 218280 bytes (213 KB) for 2 cores
+*** Operational MODE: preforking ***
+u here
+WSGI app 0 (mountpoint='') ready in 0 seconds on interpreter 0x865180 pid: 1192 (default app)
+*** uWSGI is running in multiple interpreter mode ***
+gracefully (RE)spawned uWSGI master process (pid: 1192)
+spawned uWSGI worker 1 (pid: 1332, cores: 1)
+spawned uWSGI worker 2 (pid: 1333, cores: 1)
+*** Stats server enabled on 127.0.0.1:9191 fd: 11 ***
+[pid: 1333|app: 0|req: 1/1] 182.77.0.65 () {46 vars in 953 bytes} [Sat Jan 30 11:43:44 2016] GET /admin/shopApp/banneraddpage/ => generated 0 bytes in 197 msecs (HTTP/1.1 302) 8 headers in 428 bytes (1 switches on core 0)
+Sat Jan 30 11:43:44 2016 - uWSGI worker 1 screams: UAAAAAAH my master disconnected: i will kill myself !!!
+[uWSGI] getting INI configuration from run_project.ini
+*** Starting uWSGI 2.0.12 (64bit) on [Sat Jan 30 11:43:45 2016] ***
+compiled with version: 4.8.4 on 29 January 2016 09:44:23
+os: Linux-3.13.0-74-generic #118-Ubuntu SMP Thu Dec 17 22:52:10 UTC 2015
+nodename: ip-172-31-18-10
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 1
+current working directory: /home/ubuntu/webapps/miffy/miffygit
+detected binary path: /home/ubuntu/webapps/miffy/miffyenv/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+chdir() to /home/ubuntu/webapps/miffy/miffygit/
+your processes number limit is 7862
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+probably another instance of uWSGI is running on the same address (127.0.0.1:3031).
+bind(): Address already in use [core/socket.c line 769]
+[uWSGI] getting INI configuration from run_project.ini
+*** Starting uWSGI 2.0.12 (64bit) on [Sat Jan 30 11:43:46 2016] ***
+compiled with version: 4.8.4 on 29 January 2016 09:44:23
+os: Linux-3.13.0-74-generic #118-Ubuntu SMP Thu Dec 17 22:52:10 UTC 2015
+nodename: ip-172-31-18-10
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 1
+current working directory: /home/ubuntu/webapps/miffy/miffygit
+detected binary path: /home/ubuntu/webapps/miffy/miffyenv/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+chdir() to /home/ubuntu/webapps/miffy/miffygit/
+your processes number limit is 7862
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+probably another instance of uWSGI is running on the same address (127.0.0.1:3031).
+bind(): Address already in use [core/socket.c line 769]
+[uWSGI] getting INI configuration from run_project.ini
+*** Starting uWSGI 2.0.12 (64bit) on [Sat Jan 30 11:43:49 2016] ***
+compiled with version: 4.8.4 on 29 January 2016 09:44:23
+os: Linux-3.13.0-74-generic #118-Ubuntu SMP Thu Dec 17 22:52:10 UTC 2015
+nodename: ip-172-31-18-10
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 1
+current working directory: /home/ubuntu/webapps/miffy/miffygit
+detected binary path: /home/ubuntu/webapps/miffy/miffyenv/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+chdir() to /home/ubuntu/webapps/miffy/miffygit/
+your processes number limit is 7862
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+probably another instance of uWSGI is running on the same address (127.0.0.1:3031).
+bind(): Address already in use [core/socket.c line 769]
+[uWSGI] getting INI configuration from run_project.ini
+*** Starting uWSGI 2.0.12 (64bit) on [Sat Jan 30 11:43:52 2016] ***
+compiled with version: 4.8.4 on 29 January 2016 09:44:23
+os: Linux-3.13.0-74-generic #118-Ubuntu SMP Thu Dec 17 22:52:10 UTC 2015
+nodename: ip-172-31-18-10
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 1
+current working directory: /home/ubuntu/webapps/miffy/miffygit
+detected binary path: /home/ubuntu/webapps/miffy/miffyenv/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+chdir() to /home/ubuntu/webapps/miffy/miffygit/
+your processes number limit is 7862
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+probably another instance of uWSGI is running on the same address (127.0.0.1:3031).
+bind(): Address already in use [core/socket.c line 769]
+[uWSGI] getting INI configuration from run_project.ini
+*** Starting uWSGI 2.0.12 (64bit) on [Sat Jan 30 11:45:54 2016] ***
+compiled with version: 4.8.4 on 29 January 2016 09:44:23
+os: Linux-3.13.0-74-generic #118-Ubuntu SMP Thu Dec 17 22:52:10 UTC 2015
+nodename: ip-172-31-18-10
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 1
+current working directory: /home/ubuntu/webapps/miffy/miffygit
+detected binary path: /home/ubuntu/webapps/miffy/miffyenv/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+chdir() to /home/ubuntu/webapps/miffy/miffygit/
+your processes number limit is 7862
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to TCP address 127.0.0.1:3031 fd 3
+Python version: 2.7.6 (default, Jun 22 2015, 18:01:27)  [GCC 4.8.2]
+Python main interpreter initialized at 0x1dd6550
+python threads support enabled
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 218280 bytes (213 KB) for 2 cores
+*** Operational MODE: preforking ***
+u here
+WSGI app 0 (mountpoint='') ready in 0 seconds on interpreter 0x1dd6550 pid: 1122 (default app)
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 1122)
+spawned uWSGI worker 1 (pid: 1196, cores: 1)
+spawned uWSGI worker 2 (pid: 1197, cores: 1)
+*** Stats server enabled on 127.0.0.1:9191 fd: 11 ***
+[pid: 1197|app: 0|req: 1/1] 182.77.0.65 () {46 vars in 796 bytes} [Sat Jan 30 11:46:05 2016] GET /add/page/?limit=5&offset=0 => generated 2112 bytes in 99 msecs (HTTP/1.1 200) 5 headers in 161 bytes (1 switches on core 0)
+[pid: 1196|app: 0|req: 1/2] 182.77.0.65 () {46 vars in 796 bytes} [Sat Jan 30 11:46:07 2016] GET /add/page/?limit=5&offset=5 => generated 494 bytes in 29 msecs (HTTP/1.1 200) 5 headers in 161 bytes (1 switches on core 0)
+[pid: 1197|app: 0|req: 2/3] 182.77.0.65 () {46 vars in 796 bytes} [Sat Jan 30 11:46:10 2016] GET /add/page/?limit=5&offset=0 => generated 2112 bytes in 24 msecs (HTTP/1.1 200) 5 headers in 161 bytes (1 switches on core 0)
+[pid: 1196|app: 0|req: 2/4] 182.77.0.65 () {46 vars in 796 bytes} [Sat Jan 30 11:46:11 2016] GET /add/page/?limit=5&offset=5 => generated 494 bytes in 16 msecs (HTTP/1.1 200) 5 headers in 161 bytes (1 switches on core 0)
+[pid: 1197|app: 0|req: 3/5] 182.77.0.65 () {46 vars in 796 bytes} [Sat Jan 30 11:46:25 2016] GET /add/page/?limit=5&offset=0 => generated 2112 bytes in 23 msecs (HTTP/1.1 200) 5 headers in 161 bytes (1 switches on core 0)
+[pid: 1196|app: 0|req: 3/6] 182.77.0.65 () {46 vars in 796 bytes} [Sat Jan 30 11:46:26 2016] GET /add/page/?limit=5&offset=5 => generated 494 bytes in 16 msecs (HTTP/1.1 200) 5 headers in 161 bytes (1 switches on core 0)
+[pid: 1197|app: 0|req: 4/7] 182.77.0.65 () {46 vars in 796 bytes} [Sat Jan 30 11:46:29 2016] GET /add/page/?limit=5&offset=0 => generated 2112 bytes in 22 msecs (HTTP/1.1 200) 5 headers in 161 bytes (1 switches on core 0)
+/home/ubuntu/webapps/miffy/miffyenv/local/lib/python2.7/site-packages/django/template/base.py:290: RemovedInDjango18Warning: 'The `firstof` template tag is changing to escape its arguments; the non-autoescaping version is deprecated. Load it from the `future` tag library to start using the new behavior.
+  compiled_result = compile_func(self, token)
+
+[pid: 1196|app: 0|req: 4/8] 182.77.0.65 () {44 vars in 897 bytes} [Sat Jan 30 11:46:30 2016] GET /admin/login/?next=/admin/shopApp/banneraddpage/ => generated 5713 bytes in 75 msecs (HTTP/1.1 200) 7 headers in 336 bytes (1 switches on core 0)
+[pid: 1197|app: 0|req: 5/9] 182.77.0.65 () {52 vars in 1127 bytes} [Sat Jan 30 11:46:39 2016] POST /admin/login/?next=/admin/shopApp/banneraddpage/ => generated 169814 bytes in 182 msecs (HTTP/1.1 500) 4 headers in 138 bytes (1 switches on core 0)
+[pid: 1196|app: 0|req: 5/10] 182.77.0.65 () {46 vars in 796 bytes} [Sat Jan 30 11:46:45 2016] GET /add/page/?limit=5&offset=5 => generated 494 bytes in 22 msecs (HTTP/1.1 200) 5 headers in 161 bytes (1 switches on core 0)
+[pid: 1196|app: 0|req: 6/11] 182.77.0.65 () {52 vars in 1127 bytes} [Sat Jan 30 11:47:41 2016] POST /admin/login/?next=/admin/shopApp/banneraddpage/ => generated 169816 bytes in 151 msecs (HTTP/1.1 500) 4 headers in 138 bytes (1 switches on core 0)
+...brutally killing workers...
+worker 1 buried after 1 seconds
+worker 2 buried after 1 seconds
+binary reloading uWSGI...
+chdir() to /home/ubuntu/webapps/miffy/miffygit
+closing all non-uwsgi socket fds > 2 (max_fd = 1024)...
+found fd 3 mapped to socket 0 (127.0.0.1:3031)
+running /home/ubuntu/webapps/miffy/miffyenv/bin/uwsgi
+[uWSGI] getting INI configuration from run_project.ini
+*** Starting uWSGI 2.0.12 (64bit) on [Sat Jan 30 11:47:46 2016] ***
+compiled with version: 4.8.4 on 29 January 2016 09:44:23
+os: Linux-3.13.0-74-generic #118-Ubuntu SMP Thu Dec 17 22:52:10 UTC 2015
+nodename: ip-172-31-18-10
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 1
+current working directory: /home/ubuntu/webapps/miffy/miffygit
+detected binary path: /home/ubuntu/webapps/miffy/miffyenv/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+chdir() to /home/ubuntu/webapps/miffy/miffygit/
+your processes number limit is 7862
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 inherited INET address 127.0.0.1:3031 fd 3
+Python version: 2.7.6 (default, Jun 22 2015, 18:01:27)  [GCC 4.8.2]
+Python main interpreter initialized at 0x8e9180
+python threads support enabled
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 218280 bytes (213 KB) for 2 cores
+*** Operational MODE: preforking ***
+u here
+WSGI app 0 (mountpoint='') ready in 0 seconds on interpreter 0x8e9180 pid: 1122 (default app)
+*** uWSGI is running in multiple interpreter mode ***
+gracefully (RE)spawned uWSGI master process (pid: 1122)
+spawned uWSGI worker 1 (pid: 1323, cores: 1)
+spawned uWSGI worker 2 (pid: 1324, cores: 1)
+*** Stats server enabled on 127.0.0.1:9191 fd: 11 ***
+[pid: 1324|app: 0|req: 1/1] 182.77.0.65 () {44 vars in 841 bytes} [Sat Jan 30 11:47:54 2016] GET /add/page/1/ => generated 10561 bytes in 118 msecs (HTTP/1.1 200) 5 headers in 268 bytes (1 switches on core 0)
+Sat Jan 30 11:47:55 2016 - uWSGI worker 1 screams: UAAAAAAH my master disconnected: i will kill myself !!!
+[uWSGI] getting INI configuration from run_project.ini
+*** Starting uWSGI 2.0.12 (64bit) on [Sat Jan 30 11:47:56 2016] ***
+compiled with version: 4.8.4 on 29 January 2016 09:44:23
+os: Linux-3.13.0-74-generic #118-Ubuntu SMP Thu Dec 17 22:52:10 UTC 2015
+nodename: ip-172-31-18-10
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 1
+current working directory: /home/ubuntu/webapps/miffy/miffygit
+detected binary path: /home/ubuntu/webapps/miffy/miffyenv/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+chdir() to /home/ubuntu/webapps/miffy/miffygit/
+your processes number limit is 7862
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+probably another instance of uWSGI is running on the same address (127.0.0.1:3031).
+bind(): Address already in use [core/socket.c line 769]
+[uWSGI] getting INI configuration from run_project.ini
+*** Starting uWSGI 2.0.12 (64bit) on [Sat Jan 30 11:47:57 2016] ***
+compiled with version: 4.8.4 on 29 January 2016 09:44:23
+os: Linux-3.13.0-74-generic #118-Ubuntu SMP Thu Dec 17 22:52:10 UTC 2015
+nodename: ip-172-31-18-10
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 1
+current working directory: /home/ubuntu/webapps/miffy/miffygit
+detected binary path: /home/ubuntu/webapps/miffy/miffyenv/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+chdir() to /home/ubuntu/webapps/miffy/miffygit/
+your processes number limit is 7862
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+probably another instance of uWSGI is running on the same address (127.0.0.1:3031).
+bind(): Address already in use [core/socket.c line 769]
+[uWSGI] getting INI configuration from run_project.ini
+*** Starting uWSGI 2.0.12 (64bit) on [Sat Jan 30 11:47:59 2016] ***
+compiled with version: 4.8.4 on 29 January 2016 09:44:23
+os: Linux-3.13.0-74-generic #118-Ubuntu SMP Thu Dec 17 22:52:10 UTC 2015
+nodename: ip-172-31-18-10
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 1
+current working directory: /home/ubuntu/webapps/miffy/miffygit
+detected binary path: /home/ubuntu/webapps/miffy/miffyenv/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+chdir() to /home/ubuntu/webapps/miffy/miffygit/
+your processes number limit is 7862
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+probably another instance of uWSGI is running on the same address (127.0.0.1:3031).
+bind(): Address already in use [core/socket.c line 769]
+[uWSGI] getting INI configuration from run_project.ini
+*** Starting uWSGI 2.0.12 (64bit) on [Sat Jan 30 11:48:02 2016] ***
+compiled with version: 4.8.4 on 29 January 2016 09:44:23
+os: Linux-3.13.0-74-generic #118-Ubuntu SMP Thu Dec 17 22:52:10 UTC 2015
+nodename: ip-172-31-18-10
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 1
+current working directory: /home/ubuntu/webapps/miffy/miffygit
+detected binary path: /home/ubuntu/webapps/miffy/miffyenv/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+chdir() to /home/ubuntu/webapps/miffy/miffygit/
+your processes number limit is 7862
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+probably another instance of uWSGI is running on the same address (127.0.0.1:3031).
+bind(): Address already in use [core/socket.c line 769]
+[uWSGI] getting INI configuration from run_project.ini
+*** Starting uWSGI 2.0.12 (64bit) on [Sat Jan 30 11:48:31 2016] ***
+compiled with version: 4.8.4 on 29 January 2016 09:44:23
+os: Linux-3.13.0-74-generic #118-Ubuntu SMP Thu Dec 17 22:52:10 UTC 2015
+nodename: ip-172-31-18-10
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 1
+current working directory: /home/ubuntu/webapps/miffy/miffygit
+detected binary path: /home/ubuntu/webapps/miffy/miffyenv/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+chdir() to /home/ubuntu/webapps/miffy/miffygit/
+your processes number limit is 7862
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+probably another instance of uWSGI is running on the same address (127.0.0.1:3031).
+bind(): Address already in use [core/socket.c line 769]
+[uWSGI] getting INI configuration from run_project.ini
+*** Starting uWSGI 2.0.12 (64bit) on [Sat Jan 30 11:48:32 2016] ***
+compiled with version: 4.8.4 on 29 January 2016 09:44:23
+os: Linux-3.13.0-74-generic #118-Ubuntu SMP Thu Dec 17 22:52:10 UTC 2015
+nodename: ip-172-31-18-10
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 1
+current working directory: /home/ubuntu/webapps/miffy/miffygit
+detected binary path: /home/ubuntu/webapps/miffy/miffyenv/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+chdir() to /home/ubuntu/webapps/miffy/miffygit/
+your processes number limit is 7862
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+probably another instance of uWSGI is running on the same address (127.0.0.1:3031).
+bind(): Address already in use [core/socket.c line 769]
+[uWSGI] getting INI configuration from run_project.ini
+*** Starting uWSGI 2.0.12 (64bit) on [Sat Jan 30 11:48:34 2016] ***
+compiled with version: 4.8.4 on 29 January 2016 09:44:23
+os: Linux-3.13.0-74-generic #118-Ubuntu SMP Thu Dec 17 22:52:10 UTC 2015
+nodename: ip-172-31-18-10
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 1
+current working directory: /home/ubuntu/webapps/miffy/miffygit
+detected binary path: /home/ubuntu/webapps/miffy/miffyenv/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+chdir() to /home/ubuntu/webapps/miffy/miffygit/
+your processes number limit is 7862
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+probably another instance of uWSGI is running on the same address (127.0.0.1:3031).
+bind(): Address already in use [core/socket.c line 769]
+[uWSGI] getting INI configuration from run_project.ini
+*** Starting uWSGI 2.0.12 (64bit) on [Sat Jan 30 11:48:37 2016] ***
+compiled with version: 4.8.4 on 29 January 2016 09:44:23
+os: Linux-3.13.0-74-generic #118-Ubuntu SMP Thu Dec 17 22:52:10 UTC 2015
+nodename: ip-172-31-18-10
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 1
+current working directory: /home/ubuntu/webapps/miffy/miffygit
+detected binary path: /home/ubuntu/webapps/miffy/miffyenv/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+chdir() to /home/ubuntu/webapps/miffy/miffygit/
+your processes number limit is 7862
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+probably another instance of uWSGI is running on the same address (127.0.0.1:3031).
+bind(): Address already in use [core/socket.c line 769]
+[uWSGI] getting INI configuration from run_project.ini
+*** Starting uWSGI 2.0.12 (64bit) on [Sat Jan 30 11:50:00 2016] ***
+compiled with version: 4.8.4 on 29 January 2016 09:44:23
+os: Linux-3.13.0-74-generic #118-Ubuntu SMP Thu Dec 17 22:52:10 UTC 2015
+nodename: ip-172-31-18-10
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 1
+current working directory: /home/ubuntu/webapps/miffy/miffygit
+detected binary path: /home/ubuntu/webapps/miffy/miffyenv/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+chdir() to /home/ubuntu/webapps/miffy/miffygit/
+your processes number limit is 7862
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+probably another instance of uWSGI is running on the same address (127.0.0.1:3031).
+bind(): Address already in use [core/socket.c line 769]
+[uWSGI] getting INI configuration from run_project.ini
+*** Starting uWSGI 2.0.12 (64bit) on [Sat Jan 30 11:50:01 2016] ***
+compiled with version: 4.8.4 on 29 January 2016 09:44:23
+os: Linux-3.13.0-74-generic #118-Ubuntu SMP Thu Dec 17 22:52:10 UTC 2015
+nodename: ip-172-31-18-10
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 1
+current working directory: /home/ubuntu/webapps/miffy/miffygit
+detected binary path: /home/ubuntu/webapps/miffy/miffyenv/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+chdir() to /home/ubuntu/webapps/miffy/miffygit/
+your processes number limit is 7862
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+probably another instance of uWSGI is running on the same address (127.0.0.1:3031).
+bind(): Address already in use [core/socket.c line 769]
+[uWSGI] getting INI configuration from run_project.ini
+*** Starting uWSGI 2.0.12 (64bit) on [Sat Jan 30 11:50:03 2016] ***
+compiled with version: 4.8.4 on 29 January 2016 09:44:23
+os: Linux-3.13.0-74-generic #118-Ubuntu SMP Thu Dec 17 22:52:10 UTC 2015
+nodename: ip-172-31-18-10
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 1
+current working directory: /home/ubuntu/webapps/miffy/miffygit
+detected binary path: /home/ubuntu/webapps/miffy/miffyenv/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+chdir() to /home/ubuntu/webapps/miffy/miffygit/
+your processes number limit is 7862
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+probably another instance of uWSGI is running on the same address (127.0.0.1:3031).
+bind(): Address already in use [core/socket.c line 769]
+[uWSGI] getting INI configuration from run_project.ini
+*** Starting uWSGI 2.0.12 (64bit) on [Sat Jan 30 11:50:06 2016] ***
+compiled with version: 4.8.4 on 29 January 2016 09:44:23
+os: Linux-3.13.0-74-generic #118-Ubuntu SMP Thu Dec 17 22:52:10 UTC 2015
+nodename: ip-172-31-18-10
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 1
+current working directory: /home/ubuntu/webapps/miffy/miffygit
+detected binary path: /home/ubuntu/webapps/miffy/miffyenv/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+chdir() to /home/ubuntu/webapps/miffy/miffygit/
+your processes number limit is 7862
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+probably another instance of uWSGI is running on the same address (127.0.0.1:3031).
+bind(): Address already in use [core/socket.c line 769]
+[uWSGI] getting INI configuration from run_project.ini
+*** Starting uWSGI 2.0.12 (64bit) on [Sat Jan 30 11:53:47 2016] ***
+compiled with version: 4.8.4 on 29 January 2016 09:44:23
+os: Linux-3.13.0-74-generic #118-Ubuntu SMP Thu Dec 17 22:52:10 UTC 2015
+nodename: ip-172-31-18-10
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 1
+current working directory: /home/ubuntu/webapps/miffy/miffygit
+detected binary path: /home/ubuntu/webapps/miffy/miffyenv/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+chdir() to /home/ubuntu/webapps/miffy/miffygit/
+your processes number limit is 7862
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to TCP address 127.0.0.1:3031 fd 3
+Python version: 2.7.6 (default, Jun 22 2015, 18:01:27)  [GCC 4.8.2]
+Python main interpreter initialized at 0x19de550
+python threads support enabled
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 218280 bytes (213 KB) for 2 cores
+*** Operational MODE: preforking ***
+u here
+WSGI app 0 (mountpoint='') ready in 1 seconds on interpreter 0x19de550 pid: 1125 (default app)
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 1125)
+spawned uWSGI worker 1 (pid: 1255, cores: 1)
+spawned uWSGI worker 2 (pid: 1256, cores: 1)
+*** Stats server enabled on 127.0.0.1:9191 fd: 11 ***
+[pid: 1256|app: 0|req: 1/1] 182.77.0.65 () {44 vars in 841 bytes} [Sat Jan 30 11:53:52 2016] GET /add/page/1/ => generated 10561 bytes in 128 msecs (HTTP/1.1 200) 4 headers in 137 bytes (1 switches on core 0)
+/home/ubuntu/webapps/miffy/miffyenv/local/lib/python2.7/site-packages/django/template/base.py:290: RemovedInDjango18Warning: 'The `firstof` template tag is changing to escape its arguments; the non-autoescaping version is deprecated. Load it from the `future` tag library to start using the new behavior.
+  compiled_result = compile_func(self, token)
+
+[pid: 1255|app: 0|req: 1/2] 182.77.0.65 () {44 vars in 897 bytes} [Sat Jan 30 11:54:45 2016] GET /admin/login/?next=/admin/shopApp/banneraddpage/ => generated 5713 bytes in 79 msecs (HTTP/1.1 200) 7 headers in 336 bytes (1 switches on core 0)
+[pid: 1256|app: 0|req: 2/3] 182.77.0.65 () {46 vars in 796 bytes} [Sat Jan 30 11:54:46 2016] GET /add/page/?limit=5&offset=0 => generated 2112 bytes in 19 msecs (HTTP/1.1 200) 5 headers in 161 bytes (1 switches on core 0)
+[pid: 1255|app: 0|req: 2/4] 182.77.0.65 () {46 vars in 796 bytes} [Sat Jan 30 11:54:47 2016] GET /add/page/?limit=5&offset=5 => generated 494 bytes in 18 msecs (HTTP/1.1 200) 5 headers in 161 bytes (1 switches on core 0)
+[pid: 1256|app: 0|req: 3/5] 182.77.0.65 () {46 vars in 796 bytes} [Sat Jan 30 11:54:50 2016] GET /add/page/?limit=5&offset=0 => generated 2112 bytes in 23 msecs (HTTP/1.1 200) 5 headers in 161 bytes (1 switches on core 0)
+[pid: 1255|app: 0|req: 3/6] 182.77.0.65 () {52 vars in 1127 bytes} [Sat Jan 30 11:54:50 2016] POST /admin/login/?next=/admin/shopApp/banneraddpage/ => generated 169816 bytes in 158 msecs (HTTP/1.1 500) 4 headers in 138 bytes (1 switches on core 0)
+[pid: 1255|app: 0|req: 4/7] 182.77.0.65 () {46 vars in 796 bytes} [Sat Jan 30 11:55:44 2016] GET /add/page/?limit=5&offset=0 => generated 2112 bytes in 24 msecs (HTTP/1.1 200) 5 headers in 161 bytes (1 switches on core 0)
+[pid: 1256|app: 0|req: 4/8] 182.77.0.65 () {40 vars in 708 bytes} [Sat Jan 30 11:55:47 2016] GET /add/page/?limit=5&offset=0 => generated 2112 bytes in 19 msecs (HTTP/1.1 200) 5 headers in 161 bytes (1 switches on core 0)
+[pid: 1255|app: 0|req: 5/9] 182.77.0.65 () {40 vars in 708 bytes} [Sat Jan 30 11:55:48 2016] GET /add/page/?limit=5&offset=5 => generated 494 bytes in 16 msecs (HTTP/1.1 200) 5 headers in 161 bytes (1 switches on core 0)
+[pid: 1256|app: 0|req: 5/10] 182.77.0.65 () {46 vars in 796 bytes} [Sat Jan 30 11:55:57 2016] GET /add/page/?limit=5&offset=0 => generated 2112 bytes in 23 msecs (HTTP/1.1 200) 5 headers in 161 bytes (1 switches on core 0)
+[pid: 1255|app: 0|req: 6/11] 182.77.0.65 () {40 vars in 708 bytes} [Sat Jan 30 11:55:59 2016] GET /add/page/?limit=5&offset=0 => generated 2112 bytes in 19 msecs (HTTP/1.1 200) 5 headers in 161 bytes (1 switches on core 0)
+[pid: 1256|app: 0|req: 6/12] 182.77.0.65 () {40 vars in 708 bytes} [Sat Jan 30 11:56:00 2016] GET /add/page/?limit=5&offset=5 => generated 494 bytes in 16 msecs (HTTP/1.1 200) 5 headers in 161 bytes (1 switches on core 0)
