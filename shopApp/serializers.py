@@ -9,7 +9,7 @@ class BannerAddPage_Serializer(serializers.ModelSerializer):
 
     class Meta:
         model = BannerAddPage
-        fields = ('ad_name','ad_description','ad_banner1','add_url','banner_position')
+        fields = ('ad_name','ad_description','ad_banner1','ad_banner2','ad_banner3','add_url','banner_position')
 
     # def get_image_url(self,obj):
     	
