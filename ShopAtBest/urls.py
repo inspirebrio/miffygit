@@ -15,6 +15,7 @@ urlpatterns = patterns('',
     url(r'^admin/', include(admin.site.urls)),
     # url(r'^admin/login/', views.login_view),
     url(r'^add/',include('shopApp.urls')),
+    url(r'^search/',include('shopApp.urls')),
     )
 
 urlpatterns = format_suffix_patterns(urlpatterns)

@@ -5,4 +5,5 @@ from shopApp import views
 urlpatterns = patterns('',
 	
     url(r'^page/',views.Ad_view.as_view()),
+    url(r'^page1/$',views.Ad_search_view.as_view()),
 )

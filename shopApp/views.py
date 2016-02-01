@@ -19,8 +19,15 @@ class Ad_view(ListAPIView):
     def get_queryset(self):
         queryset = BannerAddPage.objects.filter (Q(ad_status='Live') & Q(ad_liveDateFrom__lte= date.today() )& Q(ad_liveFromTo__gte = date.today())).order_by('-banner_position')
         return queryset
-def login_view(self,request):
-	return HttpResponse("ok")
+class Ad_search_view(ListAPIView):
+    pagination_class = ResultsSetPagination
+    serializer_class=BannerAddPage_Serializer
+    def get_queryset(self):
+        key=str(self.request.GET.get('key'))
+        queryset=BannerAddPage.objects.filter(Q(key__icontains=key) & Q(ad_status='Live') & Q(ad_liveDateFrom__lte= date.today() )& Q(ad_liveFromTo__gte = date.today())).order_by('-banner_position')
+        return queryset
+
+
 
 
 
