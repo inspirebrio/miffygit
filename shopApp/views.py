@@ -24,6 +24,7 @@ class Ad_search_view(ListAPIView):
     serializer_class=BannerAddPage_Serializer
     def get_queryset(self):
         key=str(self.request.GET.get('key'))
+        print 'u here',key
         queryset=BannerAddPage.objects.filter(Q(key__icontains=key) & Q(ad_status='Live') & Q(ad_liveDateFrom__lte= date.today() )& Q(ad_liveFromTo__gte = date.today())).order_by('-banner_position')
         return queryset
 

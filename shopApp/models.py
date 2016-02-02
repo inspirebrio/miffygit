@@ -3,6 +3,7 @@ from django.contrib.auth.models import *
 from django.contrib.auth import *
 from django.db import models
 from datetime import datetime
+import base64
 # from shopApp import settings
 
 
@@ -85,9 +86,9 @@ class Category(models.Model):
 		return str(self.category_name)
 
 def upload_to1(instance, filename):
-	print "name:",instance.client.user_account.name
-	print "URL :",'client/%s/%s/%s%s' % (instance.client.user_account.name,instance.ad_name,instance.ad_name,datetime.now())
-	return 'client/%s/%s/%s%s' % (instance.client.user_account.name,instance.ad_name,instance.ad_name,datetime.now())
+	# print "name:",instance.client.user_account.name
+	# print "URL :",'client/%s/%s/%s%s' % (instance.client.user_account.name,instance.ad_name,instance.ad_name,datetime.now()
+	return base64.b64encode('client/%s/%s/%s%s' % (instance.client.user_account.name,instance.ad_name,instance.ad_name,datetime.now()))
 # def upload_to2(instance, filename):-
 # 	return 'client/,%s,%s' % (instance.id,datetime.now())
 # def upload_to3(instance, filename):
@@ -97,7 +98,12 @@ def upload_to1(instance, filename):
 # class Banner(models.Model):
 # 	ad_banner=models.ImageField(upload_to=upload_to,blank=True,null=True)
 # 	ad_url=models.URLField(max_length=200,blank=True,null=True)
+# from django.core.exceptions import ValidationError
 
+# def validate_even(value):
+#     name=str(value)
+#     if name.find('#') != -1:
+#         raise ValidationError('%s is not an valid ad_name' % value)
 
 class BannerAddPage(models.Model):
 
@@ -106,8 +112,8 @@ class BannerAddPage(models.Model):
 	category=models.ForeignKey(Category,blank=True)
 	client=models.ForeignKey(Client)
 	# client_name=models.CharField(max_length=200,null=True)
-	ad_name=models.CharField(max_length=800,null=True)
-	ad_title=models.CharField(max_length=800,null=True)
+	ad_name=models.CharField(max_length=800,null=True,blank=True)
+	ad_title=models.CharField(max_length=800,null=True,blank=True)
 	ad_description=models.CharField(max_length=500)
 	ad_status=models.BooleanField(choices=BOOL_CHOICES,default=True)
 	ad_banner1=models.ImageField(upload_to=upload_to1,blank=True,null=True)

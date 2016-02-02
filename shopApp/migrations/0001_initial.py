@@ -41,8 +41,8 @@ class Migration(migrations.Migration):
             name='BannerAddPage',
             fields=[
                 ('id', models.AutoField(verbose_name='ID', serialize=False, auto_created=True, primary_key=True)),
-                ('ad_name', models.CharField(max_length=800, null=True)),
-                ('ad_title', models.CharField(max_length=800, null=True)),
+                ('ad_name', models.CharField(max_length=800, null=True, blank=True)),
+                ('ad_title', models.CharField(max_length=800, null=True, blank=True)),
                 ('ad_description', models.CharField(max_length=500)),
                 ('ad_status', models.BooleanField(default=True, choices=[(True, b'Live'), (False, b'Pause')])),
                 ('ad_banner1', models.ImageField(null=True, upload_to=shopApp.models.upload_to1, blank=True)),
