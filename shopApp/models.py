@@ -47,7 +47,7 @@ class User_account(AbstractBaseUser,PermissionsMixin):
 	#password=models.CharField(max_length=500)
 	is_active=models.BooleanField(default=True)
 	is_admin = models.BooleanField(default=False)
-	is_staff = models.BooleanField(('staff status'), default=False)
+	is_staff = models.BooleanField(('staff status'), default=False,help_text="Designates whether the user can log into this admin site.")
 	is_client=models.BooleanField(default=False)
 	# created_at = models.DateTimeField(auto_now_add=True)
 	# updated_at = models.DateTimeField(auto_now=True)
