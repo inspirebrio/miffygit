@@ -2,7 +2,7 @@ from django.contrib import admin
 from shopApp.models import*
 from django.contrib.auth.models import Group
 
-
+admin.site.site_header = 'Shop At Best'
 admin.site.register(BannerAddPage)
 admin.site.register(User_account)
 admin.site.register(Client)
