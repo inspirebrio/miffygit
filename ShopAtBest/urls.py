@@ -11,7 +11,7 @@ urlpatterns = patterns('',
     # Examples:
     # url(r'^$', 'ShopAtBest.views.home', name='home'),
     # url(r'^blog/', include('blog.urls')),
-    url(r'^grappelli/', include('grappelli.urls')),
+    # url(r'^grappelli/', include('grappelli.urls')),
     url(r'^admin/', include(admin.site.urls)),
     # url(r'^admin/login/', views.login_view),
     url(r'^add/',include('shopApp.urls')),

@@ -41,7 +41,7 @@ class Migration(migrations.Migration):
             name='BannerAddPage',
             fields=[
                 ('id', models.AutoField(verbose_name='ID', serialize=False, auto_created=True, primary_key=True)),
-                ('ad_type', models.CharField(default=True, max_length=800, choices=[(0, b'text'), (1, b'image')])),
+                ('ad_type', models.CharField(default=True, max_length=800, choices=[(b'text', b'text'), (b'image', b'image')])),
                 ('ad_name', models.CharField(max_length=800, null=True, blank=True)),
                 ('ad_title', models.CharField(max_length=800, null=True, blank=True)),
                 ('ad_description', models.CharField(max_length=500)),

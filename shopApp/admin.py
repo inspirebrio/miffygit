@@ -8,7 +8,7 @@ admin.site.register(User_account)
 admin.site.register(Client)
 admin.site.register(Category)
 admin.site.unregister(Group)
-admin.site.register(Track_user)
-admin.site.register(First_download)
+# admin.site.register(Track_user)
+# admin.site.register(First_download)
 
 
