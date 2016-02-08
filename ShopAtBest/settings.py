@@ -42,7 +42,7 @@ INSTALLED_APPS = (
     'shopApp',
     'debug_toolbar',
     'corsheaders',
-    'storages'
+    'storages',
 )
 
 MIDDLEWARE_CLASSES = (

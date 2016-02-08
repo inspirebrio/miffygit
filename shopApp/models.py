@@ -108,7 +108,8 @@ def upload_to1(instance, filename):
 class BannerAddPage(models.Model):
 
    	BOOL_CHOICES = ((True, 'Live'), (False, 'Pause'))
-
+   	TYPE_CHOICES = (('text', 'text'), ('image', 'image'))
+   	ad_type=models.CharField(choices=TYPE_CHOICES,default=True,max_length=800)
 	category=models.ForeignKey(Category,blank=True)
 	client=models.ForeignKey(Client)
 	# client_name=models.CharField(max_length=200,null=True)
@@ -130,3 +131,23 @@ class BannerAddPage(models.Model):
 	def __unicode__(self):
 		"""It is overrided method and used for return **slug** **Symptoms_with_condition**"""
 		return str(self.ad_name)
+
+class Track_user(models.Model):
+
+	ip_address = models.CharField(max_length=50,null=True,blank=True)
+	browser = models.CharField(max_length=50,null=True,blank=True)
+	date = models.DateField(auto_now_add=True)
+# 	
+	def __unicode__(self):
+		"""It is overrided method and used for return **slug** **Symptoms_with_condition**"""
+		return str(self.ip_address)
+
+
+class First_download(models.Model):
+	
+	ip_address = models.CharField(max_length=50,null=True,blank=True)
+	browser = models.CharField(max_length=50,null=True,blank=True)
+	date = models.DateField(auto_now_add=True)
+	def __unicode__(self):
+		"""It is overrided method and used for return **slug** **Symptoms_with_condition**"""
+		return str(self.ip_address)

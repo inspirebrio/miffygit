@@ -26,7 +26,7 @@ class Migration(migrations.Migration):
                 ('username', models.CharField(max_length=200, unique=True, null=True, blank=True)),
                 ('is_active', models.BooleanField(default=True)),
                 ('is_admin', models.BooleanField(default=False)),
-                ('is_staff', models.BooleanField(default=False, verbose_name=b'staff status')),
+                ('is_staff', models.BooleanField(default=False, help_text=b'Designates whether the user can log into this admin site.', verbose_name=b'staff status')),
                 ('is_client', models.BooleanField(default=False)),
                 ('mobile', models.CharField(max_length=15, null=True, blank=True)),
                 ('groups', models.ManyToManyField(related_query_name='user', related_name='user_set', to='auth.Group', blank=True, help_text='The groups this user belongs to. A user will get all permissions granted to each of his/her group.', verbose_name='groups')),
@@ -41,6 +41,7 @@ class Migration(migrations.Migration):
             name='BannerAddPage',
             fields=[
                 ('id', models.AutoField(verbose_name='ID', serialize=False, auto_created=True, primary_key=True)),
+                ('ad_type', models.CharField(default=True, max_length=800, choices=[(0, b'text'), (1, b'image')])),
                 ('ad_name', models.CharField(max_length=800, null=True, blank=True)),
                 ('ad_title', models.CharField(max_length=800, null=True, blank=True)),
                 ('ad_description', models.CharField(max_length=500)),
@@ -76,7 +77,31 @@ class Migration(migrations.Migration):
             fields=[
                 ('id', models.AutoField(verbose_name='ID', serialize=False, auto_created=True, primary_key=True)),
                 ('address', models.CharField(max_length=950, null=True, blank=True)),
-                ('user_account', models.OneToOneField(related_name=b'Client', to=settings.AUTH_USER_MODEL)),
+                ('user_account', models.OneToOneField(related_name='Client', to=settings.AUTH_USER_MODEL)),
+            ],
+            options={
+            },
+            bases=(models.Model,),
+        ),
+        migrations.CreateModel(
+            name='First_download',
+            fields=[
+                ('id', models.AutoField(verbose_name='ID', serialize=False, auto_created=True, primary_key=True)),
+                ('ip_address', models.CharField(max_length=50, null=True, blank=True)),
+                ('browser', models.CharField(max_length=50, null=True, blank=True)),
+                ('date', models.DateField(auto_now_add=True)),
+            ],
+            options={
+            },
+            bases=(models.Model,),
+        ),
+        migrations.CreateModel(
+            name='Track_user',
+            fields=[
+                ('id', models.AutoField(verbose_name='ID', serialize=False, auto_created=True, primary_key=True)),
+                ('ip_address', models.CharField(max_length=50, null=True, blank=True)),
+                ('browser', models.CharField(max_length=50, null=True, blank=True)),
+                ('date', models.DateField(auto_now_add=True)),
             ],
             options={
             },
