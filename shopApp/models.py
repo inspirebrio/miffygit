@@ -71,7 +71,7 @@ class User_account(AbstractBaseUser,PermissionsMixin):
 		"""It is overrided method and used for return **slug** **Symptoms_with_condition**"""
 		return str(self.email)
 	def save(self, *args, **kwargs):
-		# self.set_password(self.password)
+		self.set_password(self.password)
 		super(User_account, self).save(*args, **kwargs)
 
 class Client(models.Model):
