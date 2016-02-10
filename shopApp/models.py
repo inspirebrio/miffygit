@@ -131,8 +131,8 @@ class BannerAddPage(models.Model):
 	ad_url2=models.URLField(max_length=800,blank=True,null=True)
 	ad_banner3=models.ImageField(upload_to=upload_to1,blank=True,null=True,help_text="<font color='green'>*You should upload a image file between 60px height and 60px width resolution</font>")
 	ad_url3=models.URLField(max_length=800,blank=True,null=True)
-	ad_liveDateFrom=models.DateField(help_text="Please use the following format: <em>YYYY-MM-DD</em>.",null=True)
-	ad_liveFromTo=models.DateField(help_text="Please use the following format: <em>YYYY-MM-DD</em>.",null=True)
+	ad_liveDateFrom=models.DateField(help_text="<font color='green'>*Please use the following format: <em>YYYY-MM-DD</em>.</font>",null=True)
+	ad_liveFromTo=models.DateField(help_text="<font color='green'>*Please use the following format: <em>YYYY-MM-DD</em>.</font>",null=True)
 	key=models.CharField(max_length=800,blank=True,null=True)
 	banner_position=models.IntegerField(default=0)
 
