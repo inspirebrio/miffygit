@@ -4,6 +4,10 @@ from django.contrib.auth import *
 from django.db import models
 from datetime import datetime
 import base64
+from datetime import date
+from django.core.validators import ValidationError
+from django.contrib.admin.widgets import AdminDateWidget 
+from django.contrib.admin import widgets
 # from shopApp import settings
 
 
@@ -47,7 +51,7 @@ class User_account(AbstractBaseUser,PermissionsMixin):
 	#password=models.CharField(max_length=500)
 	is_active=models.BooleanField(default=True)
 	is_admin = models.BooleanField(default=False)
-	is_staff = models.BooleanField(('staff status'), default=False,help_text="Designates whether the user can log into this admin site.")
+	is_staff = models.BooleanField(('staff status'), default=False,help_text="<font color='green'>*Designates whether the user can log into this admin site(important).</font>")
 	is_client=models.BooleanField(default=False)
 	# created_at = models.DateTimeField(auto_now_add=True)
 	# updated_at = models.DateTimeField(auto_now=True)
@@ -67,7 +71,7 @@ class User_account(AbstractBaseUser,PermissionsMixin):
 		"""It is overrided method and used for return **slug** **Symptoms_with_condition**"""
 		return str(self.email)
 	def save(self, *args, **kwargs):
-		self.set_password(self.password)
+		# self.set_password(self.password)
 		super(User_account, self).save(*args, **kwargs)
 
 class Client(models.Model):
@@ -100,10 +104,13 @@ def upload_to1(instance, filename):
 # 	ad_url=models.URLField(max_length=200,blank=True,null=True)
 # from django.core.exceptions import ValidationError
 
-# def validate_even(value):
-#     name=str(value)
-#     if name.find('#') != -1:
-#         raise ValidationError('%s is not an valid ad_name' % value)
+# def is_valid_field(self, field_data, all_data):
+#     if hasattr(models, field_data) and issubclass(getattr(models, field_data), models.Field):
+#         # It exists and is a proper field type
+#         print all_data
+#         return
+    
+#     raise ValidationError("This is not a valid field type.") 
 
 class BannerAddPage(models.Model):
 
@@ -113,18 +120,19 @@ class BannerAddPage(models.Model):
 	category=models.ForeignKey(Category,blank=True)
 	client=models.ForeignKey(Client)
 	# client_name=models.CharField(max_length=200,null=True)
+	ad_type=models.CharField(choices=TYPE_CHOICES,default=True,max_length=800)
 	ad_name=models.CharField(max_length=800,null=True,blank=True)
 	ad_title=models.CharField(max_length=800,null=True,blank=True)
 	ad_description=models.CharField(max_length=500)
 	ad_status=models.BooleanField(choices=BOOL_CHOICES,default=True)
-	ad_banner1=models.ImageField(upload_to=upload_to1,blank=True,null=True)
+	ad_banner1=models.ImageField(upload_to=upload_to1,blank=True,null=True,help_text="<font color='green'>*You should upload a image file between 60px height and 60px width resolution</font>")
 	ad_url1=models.URLField(max_length=800,blank=True,null=True)
-	ad_banner2=models.ImageField(upload_to=upload_to1,blank=True,null=True)
+	ad_banner2=models.ImageField(upload_to=upload_to1,blank=True,null=True,help_text="<font color='green'>*You should upload a image file between 60px height and 60px width resolution</font>")
 	ad_url2=models.URLField(max_length=800,blank=True,null=True)
-	ad_banner3=models.ImageField(upload_to=upload_to1,blank=True,null=True)
+	ad_banner3=models.ImageField(upload_to=upload_to1,blank=True,null=True,help_text="<font color='green'>*You should upload a image file between 60px height and 60px width resolution</font>")
 	ad_url3=models.URLField(max_length=800,blank=True,null=True)
-	ad_liveDateFrom=models.DateField(null=True)
-	ad_liveFromTo=models.DateField(null=True)
+	ad_liveDateFrom=models.DateField(help_text="Please use the following format: <em>YYYY-MM-DD</em>.",null=True)
+	ad_liveFromTo=models.DateField(help_text="Please use the following format: <em>YYYY-MM-DD</em>.",null=True)
 	key=models.CharField(max_length=800,blank=True,null=True)
 	banner_position=models.IntegerField(default=0)
 
@@ -132,22 +140,25 @@ class BannerAddPage(models.Model):
 		"""It is overrided method and used for return **slug** **Symptoms_with_condition**"""
 		return str(self.ad_name)
 
-class Track_user(models.Model):
+# class Track_user(models.Model):
 
-	ip_address = models.CharField(max_length=50,null=True,blank=True)
-	browser = models.CharField(max_length=50,null=True,blank=True)
-	date = models.DateField(auto_now_add=True)
-# 	
-	def __unicode__(self):
-		"""It is overrided method and used for return **slug** **Symptoms_with_condition**"""
-		return str(self.ip_address)
+# 	ip_address = models.CharField(max_length=50,null=True,blank=True)
+# 	browser = models.CharField(max_length=50,null=True,blank=True)
+# 	date = models.DateField(auto_now_add=True)
+# # 	
+# 	def __unicode__(self):
+# 		"""It is overrided method and used for return **slug** **Symptoms_with_condition**"""
+# 		return str(self.ip_address)
 
 
-class First_download(models.Model):
+# class First_download(models.Model):
 	
-	ip_address = models.CharField(max_length=50,null=True,blank=True)
-	browser = models.CharField(max_length=50,null=True,blank=True)
-	date = models.DateField(auto_now_add=True)
-	def __unicode__(self):
-		"""It is overrided method and used for return **slug** **Symptoms_with_condition**"""
-		return str(self.ip_address)
+# 	ip_address = models.CharField(max_length=50,null=True,blank=True)
+# 	browser = models.CharField(max_length=50,null=True,blank=True)
+# 	date = models.DateField(auto_now_add=True)
+# 	def __unicode__(self):
+# 		"""It is overrided method and used for return **slug** **Symptoms_with_condition**"""
+# 		return str(self.ip_address)
+
+
+

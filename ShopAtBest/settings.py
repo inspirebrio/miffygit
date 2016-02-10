@@ -86,13 +86,14 @@ DATABASES = {
 
 LANGUAGE_CODE = 'en-us'
 
-TIME_ZONE = 'UTC'
-
+# TIME_ZONE = 'UTC'
+TIME_ZONE = 'Asia/Kolkata'
+USE_TZ=True
 USE_I18N = True
 
 USE_L10N = True
 
-USE_TZ = True
+# USE_TZ = True
 
 AWS_STORAGE_BUCKET_NAME = 'mifymediabucket'
 AWS_ACCESS_KEY_ID = 'AKIAI3Q6B44BEF3RFYZA'

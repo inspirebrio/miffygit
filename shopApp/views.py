@@ -22,7 +22,7 @@ class Ad_view(ListAPIView):
     pagination_class = ResultsSetPagination
     serializer_class=BannerAddPage_Serializer
     def get_queryset(self):
-        queryset = BannerAddPage.objects.filter (Q(ad_status='Live') & Q(ad_liveDateFrom__lte= date.today() )& Q(ad_liveFromTo__gte = date.today())).order_by('-banner_position')
+        queryset = BannerAddPage.objects.filter(Q(ad_status='Live') & Q(ad_liveDateFrom__lte= date.today() )& Q(ad_liveFromTo__gte = date.today())).order_by('-banner_position')
         return queryset
 class Ad_search_view(ListAPIView):
     pagination_class = ResultsSetPagination
@@ -34,29 +34,29 @@ class Ad_search_view(ListAPIView):
         return queryset
 
 
-class Track_user1(APIView):
-    def get(self,request):
-        ip = get_ip(request)
-        browser = request.META['HTTP_USER_AGENT']
-        user_agent = parse(browser)
-        print "IP ",ip
-        print "BROWSER",user_agent.browser.family
-        track = Track_user.objects.create(ip_address=ip,browser=user_agent.browser.family)
-        track.save()
+# class Track_user1(APIView):
+#     def get(self,request):
+#         ip = get_ip(request)
+#         browser = request.META['HTTP_USER_AGENT']
+#         user_agent = parse(browser)
+#         print "IP ",ip
+#         print "BROWSER",user_agent.browser.family
+#         track = Track_user.objects.create(ip_address=ip,browser=user_agent.browser.family)
+#         track.save()
 
 
-        return redirect('http://www.google.com')
+#         return redirect('http://www.google.com')
 
-class First_download1(APIView):
-    def get(self,request):
-        ip = get_ip(request)
-        browser = request.META['HTTP_USER_AGENT']
-        user_agent = parse(browser)
-        print "IP ",ip
-        print "BROWSER",user_agent.browser.family
-        first = First_download.objects.create(ip_address=ip,browser=user_agent.browser.family)
-        first.save()
-        return HttpResponse('Ok')
+# class First_download1(APIView):
+#     def get(self,request):
+#         ip = get_ip(request)
+#         browser = request.META['HTTP_USER_AGENT']
+#         user_agent = parse(browser)
+#         print "IP ",ip
+#         print "BROWSER",user_agent.browser.family
+#         first = First_download.objects.create(ip_address=ip,browser=user_agent.browser.family)
+#         first.save()
+#         return HttpResponse('Ok')
 
 # class Ip_matching(APIView):
 #     def get(self,request):

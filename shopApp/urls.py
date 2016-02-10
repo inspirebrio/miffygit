@@ -8,8 +8,8 @@ urlpatterns = patterns('',
 	
     url(r'^page/',views.Ad_view.as_view()),
     url(r'^ad/$',views.Ad_search_view.as_view()),
-    url(r'^track/$',views.Track_user1.as_view()),
-    url(r'^first/$',views.First_download1.as_view()),
-    url(r'^redirect/$',RedirectView.as_view(url='www.google.com')),
+    # url(r'^track/$',views.Track_user1.as_view()),
+    # url(r'^first/$',views.First_download1.as_view()),
+    # url(r'^redirect/$',RedirectView.as_view(url='www.google.com')),
 
 )
