@@ -2,7 +2,7 @@ from django.contrib.auth.models import AbstractBaseUser
 from django.contrib.auth.models import *
 from django.contrib.auth import *
 from django.db import models
-from datetime import datetime
+# from datetime import datetime
 import base64
 from datetime import date
 from django.core.validators import ValidationError
@@ -56,7 +56,7 @@ class User_account(AbstractBaseUser,PermissionsMixin):
 	# created_at = models.DateTimeField(auto_now_add=True)
 	# updated_at = models.DateTimeField(auto_now=True)
 	mobile=models.CharField(max_length=15,blank=True,null=True)
-
+	date1=models.DateField(blank=True,default=None,null=True)
 	objects = AccountManager()
 	USERNAME_FIELD = 'email'
 	REQUIRED_FIELDS = ['username']
@@ -74,14 +74,15 @@ class User_account(AbstractBaseUser,PermissionsMixin):
 		try:
 			a = User_account.objects.get(email=self.email)
 		except:	
-			print "Password",self.password
-			self.set_password(self.password)
+			# print "Password",self.password
+			# self.set_password(self.password)
+			print "ok "
 		super(User_account, self).save(*args, **kwargs)
 
 class Client(models.Model):
-	user_account=models.OneToOneField(User_account,unique=True,related_name='Client')
+	user_account=models.OneToOneField(User_account,unique=True,related_name='Client',verbose_name="*user_account")
 	address=models.CharField(max_length=950,null=True,blank=True)
-
+	required_css_class = 'required'
 	def __unicode__(self):
 		"""It is overrided method and used for return **slug** **Symptoms_with_condition**"""
 		return str(self.user_account)
@@ -120,25 +121,28 @@ class BannerAddPage(models.Model):
 
    	BOOL_CHOICES = ((True, 'Live'), (False, 'Pause'))
    	TYPE_CHOICES = (('text', 'text'), ('image', 'image'))
-   	ad_type=models.CharField(choices=TYPE_CHOICES,default=True,max_length=800)
-	category=models.ForeignKey(Category,blank=True)
-	client=models.ForeignKey(Client)
+
+
+	category=models.ForeignKey(Category,null=True,blank=True,verbose_name='*category')
+	client=models.ForeignKey(Client,null=True,blank=True,verbose_name='*client')
 	# client_name=models.CharField(max_length=200,null=True)
-	ad_type=models.CharField(choices=TYPE_CHOICES,default=True,max_length=800)
-	ad_name=models.CharField(max_length=800,null=True,blank=True)
-	ad_title=models.CharField(max_length=800,null=True,blank=True)
-	ad_description=models.CharField(max_length=500)
-	ad_status=models.BooleanField(choices=BOOL_CHOICES,default=True)
-	ad_banner1=models.ImageField(upload_to=upload_to1,blank=True,null=True,help_text="<font color='green'>*You should upload a image file between 60px height and 60px width resolution</font>")
-	ad_url1=models.URLField(max_length=800,blank=True,null=True)
-	ad_banner2=models.ImageField(upload_to=upload_to1,blank=True,null=True,help_text="<font color='green'>*You should upload a image file between 60px height and 60px width resolution</font>")
-	ad_url2=models.URLField(max_length=800,blank=True,null=True)
-	ad_banner3=models.ImageField(upload_to=upload_to1,blank=True,null=True,help_text="<font color='green'>*You should upload a image file between 60px height and 60px width resolution</font>")
-	ad_url3=models.URLField(max_length=800,blank=True,null=True)
-	ad_liveDateFrom=models.DateField(help_text="<font color='green'>*Please use the following format: <em>YYYY-MM-DD</em>.</font>",null=True)
-	ad_liveFromTo=models.DateField(help_text="<font color='green'>*Please use the following format: <em>YYYY-MM-DD</em>.</font>",null=True)
-	key=models.CharField(max_length=800,blank=True,null=True)
-	banner_position=models.IntegerField(default=0)
+	ad_type=models.CharField(choices=TYPE_CHOICES,max_length=800,null=True,blank=True,verbose_name='*ad_type')
+	ad_name=models.CharField(max_length=800,null=True,blank=True,verbose_name='*ad_name')
+	ad_title=models.CharField(max_length=800,null=True,blank=True,verbose_name='*ad_title')
+	ad_description=models.CharField(max_length=500,null=True,blank=True,verbose_name='*ad_description')
+	ad_status=models.BooleanField(choices=BOOL_CHOICES,default=True,verbose_name='*ad_status')
+	ad_banner1=models.ImageField(upload_to=upload_to1,blank=True,null=True,help_text="<font color='green'>*You should upload a image file between 60px height and 60px width resolution</font>",verbose_name='*ad_banner1')
+	ad_url1=models.URLField(max_length=800,blank=True,null=True,verbose_name='*ad_url1')
+	ad_banner2=models.ImageField(upload_to=upload_to1,blank=True,null=True,help_text="<font color='green'>*You should upload a image file between 60px height and 60px width resolution</font>",verbose_name='*ad_banner2')
+	ad_url2=models.URLField(max_length=800,blank=True,null=True,verbose_name='*ad_url2')
+	ad_banner3=models.ImageField(upload_to=upload_to1,blank=True,null=True,help_text="<font color='green'>*You should upload a image file between 60px height and 60px width resolution</font>",verbose_name='*ad_banner3')
+	ad_url3=models.URLField(max_length=800,blank=True,null=True,verbose_name='*ad_url3')
+	ad_liveDateFrom=models.DateField(null=True,blank=True,default=None,verbose_name='*ad_liveDateFrom')
+	ad_liveFromTo=models.DateField(blank=True,default=None,null=True,verbose_name='*ad_liveDateTo')
+	key=models.CharField(max_length=800,blank=True,null=True,verbose_name='*key')
+	banner_position=models.IntegerField(default=0,null=True,blank=True,verbose_name='*banner_position')
+
+
 
 	def __unicode__(self):
 		"""It is overrided method and used for return **slug** **Symptoms_with_condition**"""

@@ -31,6 +31,7 @@ ALLOWED_HOSTS = ['*']
 # Application definition
 
 INSTALLED_APPS = (
+    
     'django.contrib.admin',
     'django.contrib.auth',
     'django.contrib.contenttypes',
@@ -42,6 +43,7 @@ INSTALLED_APPS = (
     'debug_toolbar',
     'corsheaders',
     'storages',
+
 )
 
 MIDDLEWARE_CLASSES = (
@@ -56,7 +58,7 @@ MIDDLEWARE_CLASSES = (
 )
 
 ROOT_URLCONF = 'ShopAtBest.urls'
-CORS_ORIGIN_ALLOW_ALL = True
+
 WSGI_APPLICATION = 'ShopAtBest.wsgi.application'
 
 CROS_ORIGIN_ALLOW_ALL=True

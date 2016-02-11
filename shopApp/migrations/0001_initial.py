@@ -29,6 +29,7 @@ class Migration(migrations.Migration):
                 ('is_staff', models.BooleanField(default=False, help_text=b"<font color='green'>*Designates whether the user can log into this admin site(important).</font>", verbose_name=b'staff status')),
                 ('is_client', models.BooleanField(default=False)),
                 ('mobile', models.CharField(max_length=15, null=True, blank=True)),
+                ('date1', models.DateField(default=None, null=True, blank=True)),
                 ('groups', models.ManyToManyField(related_query_name='user', related_name='user_set', to='auth.Group', blank=True, help_text='The groups this user belongs to. A user will get all permissions granted to each of his/her group.', verbose_name='groups')),
                 ('user_permissions', models.ManyToManyField(related_query_name='user', related_name='user_set', to='auth.Permission', blank=True, help_text='Specific permissions for this user.', verbose_name='user permissions')),
             ],
@@ -41,10 +42,10 @@ class Migration(migrations.Migration):
             name='BannerAddPage',
             fields=[
                 ('id', models.AutoField(verbose_name='ID', serialize=False, auto_created=True, primary_key=True)),
-                ('ad_type', models.CharField(default=True, max_length=800, choices=[(b'text', b'text'), (b'image', b'image')])),
+                ('ad_type', models.CharField(blank=True, max_length=800, null=True, choices=[(b'text', b'text'), (b'image', b'image')])),
                 ('ad_name', models.CharField(max_length=800, null=True, blank=True)),
                 ('ad_title', models.CharField(max_length=800, null=True, blank=True)),
-                ('ad_description', models.CharField(max_length=500)),
+                ('ad_description', models.CharField(max_length=500, null=True, blank=True)),
                 ('ad_status', models.BooleanField(default=True, choices=[(True, b'Live'), (False, b'Pause')])),
                 ('ad_banner1', models.ImageField(help_text=b"<font color='green'>*You should upload a image file between 60px height and 60px width resolution</font>", null=True, upload_to=shopApp.models.upload_to1, blank=True)),
                 ('ad_url1', models.URLField(max_length=800, null=True, blank=True)),
@@ -52,10 +53,10 @@ class Migration(migrations.Migration):
                 ('ad_url2', models.URLField(max_length=800, null=True, blank=True)),
                 ('ad_banner3', models.ImageField(help_text=b"<font color='green'>*You should upload a image file between 60px height and 60px width resolution</font>", null=True, upload_to=shopApp.models.upload_to1, blank=True)),
                 ('ad_url3', models.URLField(max_length=800, null=True, blank=True)),
-                ('ad_liveDateFrom', models.DateField(help_text=b'Please use the following format: <em>YYYY-MM-DD</em>.', null=True)),
-                ('ad_liveFromTo', models.DateField(help_text=b'Please use the following format: <em>YYYY-MM-DD</em>.', null=True)),
+                ('ad_liveDateFrom', models.DateField(default=None, null=True, blank=True)),
+                ('ad_liveFromTo', models.DateField(default=None, null=True, blank=True)),
                 ('key', models.CharField(max_length=800, null=True, blank=True)),
-                ('banner_position', models.IntegerField(default=0)),
+                ('banner_position', models.IntegerField(default=0, null=True, blank=True)),
             ],
             options={
             },
@@ -77,7 +78,7 @@ class Migration(migrations.Migration):
             fields=[
                 ('id', models.AutoField(verbose_name='ID', serialize=False, auto_created=True, primary_key=True)),
                 ('address', models.CharField(max_length=950, null=True, blank=True)),
-                ('user_account', models.OneToOneField(related_name=b'Client', to=settings.AUTH_USER_MODEL)),
+                ('user_account', models.OneToOneField(related_name='Client', to=settings.AUTH_USER_MODEL)),
             ],
             options={
             },
@@ -86,13 +87,13 @@ class Migration(migrations.Migration):
         migrations.AddField(
             model_name='banneraddpage',
             name='category',
-            field=models.ForeignKey(to='shopApp.Category', blank=True),
+            field=models.ForeignKey(blank=True, to='shopApp.Category', null=True),
             preserve_default=True,
         ),
         migrations.AddField(
             model_name='banneraddpage',
             name='client',
-            field=models.ForeignKey(to='shopApp.Client'),
+            field=models.ForeignKey(blank=True, to='shopApp.Client', null=True),
             preserve_default=True,
         ),
     ]

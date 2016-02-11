@@ -3,10 +3,10 @@ from django.contrib import admin
 from shopApp import views
 from django.conf import settings
 from rest_framework.urlpatterns import format_suffix_patterns
-from shopApp.forms import MyAuthenticationForm
+# from shopApp.forms import MyAuthenticationForm
 
-admin.autodiscover()
-admin.site.login_form = MyAuthenticationForm
+# admin.autodiscover()
+# admin.site.login_form = MyAuthenticationForm
 urlpatterns = patterns('',
     # Examples:
     # url(r'^$', 'ShopAtBest.views.home', name='home'),

@@ -8,8 +8,9 @@ admin.site.register(User_account)
 admin.site.register(Client)
 admin.site.register(Category)
 admin.site.unregister(Group)
-
+# admin.site.register(Test)
 admin.site.register(BannerAddPage)
+
 # admin.site.register(Person)
 # # admin.site.register(MytypeField)
 
