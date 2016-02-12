@@ -4,7 +4,7 @@ from django.contrib.auth import *
 from django.db import models
 # from datetime import datetime
 import base64
-from datetime import date
+from datetime import datetime
 from django.core.validators import ValidationError
 from django.contrib.admin.widgets import AdminDateWidget 
 from django.contrib.admin import widgets
@@ -123,30 +123,33 @@ class BannerAddPage(models.Model):
    	TYPE_CHOICES = (('text', 'text'), ('image', 'image'))
 
 
-	category=models.ForeignKey(Category,null=True,blank=True,verbose_name='*category')
-	client=models.ForeignKey(Client,null=True,blank=True,verbose_name='*client')
+	category=models.ForeignKey(Category,verbose_name='*Category')
+	client=models.ForeignKey(Client,verbose_name='*Client')
 	# client_name=models.CharField(max_length=200,null=True)
-	ad_type=models.CharField(choices=TYPE_CHOICES,max_length=800,null=True,blank=True,verbose_name='*ad_type')
-	ad_name=models.CharField(max_length=800,null=True,blank=True,verbose_name='*ad_name')
-	ad_title=models.CharField(max_length=800,null=True,blank=True,verbose_name='*ad_title')
-	ad_description=models.CharField(max_length=500,null=True,blank=True,verbose_name='*ad_description')
-	ad_status=models.BooleanField(choices=BOOL_CHOICES,default=True,verbose_name='*ad_status')
-	ad_banner1=models.ImageField(upload_to=upload_to1,blank=True,null=True,help_text="<font color='green'>*You should upload a image file between 60px height and 60px width resolution</font>",verbose_name='*ad_banner1')
-	ad_url1=models.URLField(max_length=800,blank=True,null=True,verbose_name='*ad_url1')
-	ad_banner2=models.ImageField(upload_to=upload_to1,blank=True,null=True,help_text="<font color='green'>*You should upload a image file between 60px height and 60px width resolution</font>",verbose_name='*ad_banner2')
-	ad_url2=models.URLField(max_length=800,blank=True,null=True,verbose_name='*ad_url2')
-	ad_banner3=models.ImageField(upload_to=upload_to1,blank=True,null=True,help_text="<font color='green'>*You should upload a image file between 60px height and 60px width resolution</font>",verbose_name='*ad_banner3')
-	ad_url3=models.URLField(max_length=800,blank=True,null=True,verbose_name='*ad_url3')
-	ad_liveDateFrom=models.DateField(null=True,blank=True,default=None,verbose_name='*ad_liveDateFrom')
-	ad_liveFromTo=models.DateField(blank=True,default=None,null=True,verbose_name='*ad_liveDateTo')
-	key=models.CharField(max_length=800,blank=True,null=True,verbose_name='*key')
-	banner_position=models.IntegerField(default=0,null=True,blank=True,verbose_name='*banner_position')
+	ad_type=models.CharField(choices=TYPE_CHOICES,max_length=800,verbose_name='*Ad_type')
+	ad_name=models.CharField(max_length=800,verbose_name='*Ad_name')
+	ad_title=models.CharField(max_length=800,verbose_name='*Ad_title')
+	ad_description=models.CharField(max_length=500,verbose_name='*Ad_description')
+	ad_status=models.BooleanField(choices=BOOL_CHOICES,default=True,verbose_name='Ad_status')
+	ad_banner1=models.ImageField(upload_to=upload_to1,help_text="<font color='green'>*You should upload a image file between 60px height and 60px width resolution</font>",verbose_name='*Ad_banner1')
+	ad_url1=models.URLField(max_length=800,verbose_name='*ad_url1')
+	ad_banner2=models.ImageField(upload_to=upload_to1,blank=True,null=True,help_text="<font color='green'>*You should upload a image file between 60px height and 60px width resolution</font>",verbose_name='Ad_banner2')
+	ad_url2=models.URLField(max_length=800,blank=True,null=True,verbose_name='ad_url2')
+	ad_banner3=models.ImageField(upload_to=upload_to1,blank=True,null=True,help_text="<font color='green'>*You should upload a image file between 60px height and 60px width resolution</font>",verbose_name='Ad_banner3')
+	ad_url3=models.URLField(max_length=800,blank=True,null=True,verbose_name='ad_url3')
+	ad_liveDateFrom=models.DateField(default=None,verbose_name='*Ad_liveDateFrom')
+	ad_liveFromTo=models.DateField(default=None,verbose_name='*Ad_liveDateTo')
+	key=models.CharField(max_length=800,verbose_name='*Key')
+	banner_position=models.IntegerField(default=0,verbose_name='*Banner_position')
 
 
 
 	def __unicode__(self):
 		"""It is overrided method and used for return **slug** **Symptoms_with_condition**"""
 		return str(self.ad_name)
+
+
+
 
 # class Track_user(models.Model):
 
